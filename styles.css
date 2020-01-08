@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+nav {
+  width: 100%;
+  height: 35px;
+  background-color: #fb00ff;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 4px;
+  background-color: #6bbcff;
+  margin: 3px;
+  margin-right: 50px;
+}
+
+body {
+  background-color: #262626;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#titlebar {
+  background-color: azure;
+  padding: 25px;
+}
+
+h1,
+h4 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: #6bbcff;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 60px;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.text {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 50%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 70%; /* Set the width of the positioned div */
+  font-size: 9px;
+  background-color: black;
+  color: white;
+}

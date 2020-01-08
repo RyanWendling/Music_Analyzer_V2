@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: #6bbcff;
+  border-radius: 10px;
+  z-index: -999;
+}
+
+.content {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 50%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%; /* Set the width of the positioned div */
+  font-size: 10px;
+  background-color: black;
+  color: white;
+}
