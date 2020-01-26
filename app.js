@@ -11,9 +11,10 @@ musicRouter.route("/artists").get((request, response) => {
 });
 app.use("/api", musicRouter);
 
-app.get("/", (request, response) => {
+app.get("/", async (request, response) => {
   // response.send("Welcome to the music match API");
-  response.send(myScraper.printYo());
+  //response.send(myScraper.ScrapeAndSave(BandsArr[i]));
+  response.send(await myScraper.ScrapeAndSave("Beck"));
 });
 
 app.listen(port, () => {
