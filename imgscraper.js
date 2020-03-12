@@ -25,13 +25,14 @@ class ImageScrapeAndSave {
     });
   }
 
-  static async ScrapeAndSave(theCurrentArtist) {
-    // Below used to be seperate setup
-    const google = new Scraper.Google({
-      keyword: theCurrentArtist,
-      limit: 2,
+  static ScrapeAndSaveTwo() {
+    var Scraper = require("images-scraper");
+
+    let google = new Scraper.Google({
+      keyword: "banana",
+      limit: 200,
       puppeteer: {
-        headless: true
+        headless: false
       },
       tbs: {
         // every possible tbs search option, some examples and more info: http://jwebnet.net/advancedgooglesearch.html
@@ -41,8 +42,32 @@ class ImageScrapeAndSave {
         sur: undefined // options: fmc (commercial reuse with modification), fc (commercial reuse), fm (noncommercial reuse with modification), f (noncommercial reuse)
       }
     });
+
     (async () => {
       const results = await google.start();
+      console.log("results", results);
+    })();
+  }
+
+  static async ScrapeAndSave(theCurrentArtist) {
+    // Below used to be seperate setup
+    const google = new Scraper.Google({
+      keyword: theCurrentArtist,
+      limit: 2,
+      puppeteer: {
+        headless: false
+      },
+      tbs: {
+        // every possible tbs search option, some examples and more info: http://jwebnet.net/advancedgooglesearch.html
+        isz: undefined, // options: l(arge), m(edium), i(cons), etc.
+        itp: undefined, // options: clipart, face, lineart, news, photo
+        ic: undefined, // options: color, gray, trans
+        sur: undefined // options: fmc (commercial reuse with modification), fc (commercial reuse), fm (noncommercial reuse with modification), f (noncommercial reuse)
+      }
+    });
+    await (async () => {
+      const results = await google.start();
+      console.log("results", results);
       try {
         let EndOfFileNumm = 0;
         // Create folder for images, if folder doesn't yet exist
@@ -77,6 +102,7 @@ class ImageScrapeAndSave {
   }
 }
 
-ImageScrapeAndSave.ScrapeAndSave("pikachu");
+//ImageScrapeAndSave.ScrapeAndSave("pikachu");
+ImageScrapeAndSave.ScrapeAndSaveTwo();
 
 module.exports = ImageScrapeAndSave;

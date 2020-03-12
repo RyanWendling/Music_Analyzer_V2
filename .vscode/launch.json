@@ -30,6 +30,18 @@
       "request": "launch",
       "reAttach": true,
       "addonPath": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch backend code / Program",
+      "program": "${workspaceFolder}/imgscrapertest.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch backend analyzer Program",
+      "program": "${workspaceFolder}/SimilarArtistAnalyzer.js"
     }
   ]
 }

@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2019-02-11T01:01:41Z</date>
+	<key>Application Version</key><string>12.7.4.76</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/</string>
+	<key>Library Persistent ID</key><string>715541E54B1CD42C</string>
+	<key>Tracks</key>
+	<dict>
+		<key>3978</key>
+		<dict>
+			<key>Track ID</key><integer>3978</integer>
+			<key>Name</key><string>Violent Shiver</string>
+			<key>Artist</key><string>Benjamin Booker</string>
+			<key>Album Artist</key><string>Benjamin Booker</string>
+			<key>Album</key><string>Benjamin Booker</string>
+			<key>Genre</key><string>Garage Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6744326</integer>
+			<key>Total Time</key><integer>166556</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:47Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>Beolab1700</string>
+			<key>Play Count</key><integer>33</integer>
+			<key>Play Date</key><integer>3592749264</integer>
+			<key>Play Date UTC</key><date>2017-11-05T23:54:24Z</date>
+			<key>Skip Count</key><integer>11</integer>
+			<key>Skip Date</key><date>2017-12-18T04:05:51Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Normalization</key><integer>6232</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3BEF384D29C66188</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Benjamin%20Booker/Benjamin%20Booker/1-01%20Violent%20Shiver.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>4160</key>
+		<dict>
+			<key>Track ID</key><integer>4160</integer>
+			<key>Name</key><string>Berlin</string>
+			<key>Artist</key><string>Black Rebel Motorcycle Club</string>
+			<key>Album Artist</key><string>Black Rebel Motorcycle Club</string>
+			<key>Album</key><string>Baby 81</string>
+			<key>Genre</key><string>Alternative Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7684029</integer>
+			<key>Total Time</key><integer>191477</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:49Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>Encoded by FLAC v1.1.4a with</string>
+			<key>Play Count</key><integer>37</integer>
+			<key>Play Date</key><integer>3625162257</integer>
+			<key>Play Date UTC</key><date>2018-11-16T03:30:57Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2017-03-20T20:03:59Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>13019</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3CB51F203B14707D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Black%20Rebel%20Motorcycle%20Club/Baby%2081/02%20Berlin.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>4806</key>
+		<dict>
+			<key>Track ID</key><integer>4806</integer>
+			<key>Name</key><string>Hazel Eyes</string>
+			<key>Artist</key><string>The Darkness</string>
+			<key>Album Artist</key><string>The Darkness</string>
+			<key>Composer</key><string>Justin Hawkins/Dan Hawkins</string>
+			<key>Album</key><string>One Way Ticket To Hell And Back</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8325049</integer>
+			<key>Total Time</key><integer>205818</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Year</key><integer>2005</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:09Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string> 00001E57 00001E28 00006D35 00007D09 0001D4EE 00029855 00008000 00008000 00015FD5 000138AE</string>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3584363044</integer>
+			<key>Play Date UTC</key><date>2017-07-31T21:24:04Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2016-11-18T19:58:15Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>8638</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Darkness</string>
+			<key>Sort Artist</key><string>Darkness</string>
+			<key>Persistent ID</key><string>BB23B0BDC97875FD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/The%20Darkness/One%20Way%20Ticket%20To%20Hell%20And%20Back/06%20Hazel%20Eyes.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>4832</key>
+		<dict>
+			<key>Track ID</key><integer>4832</integer>
+			<key>Name</key><string>Lady</string>
+			<key>Artist</key><string>The Datsuns</string>
+			<key>Album Artist</key><string>The Datsuns</string>
+			<key>Composer</key><string>The Datsuns</string>
+			<key>Album</key><string>The Datsuns</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7067298</integer>
+			<key>Total Time</key><integer>175908</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:10Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>18</integer>
+			<key>Play Date</key><integer>3605956479</integer>
+			<key>Play Date UTC</key><date>2018-04-07T19:34:39Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2016-11-09T04:53:48Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>8108</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Datsuns</string>
+			<key>Sort Album Artist</key><string>Datsuns</string>
+			<key>Sort Artist</key><string>Datsuns</string>
+			<key>Sort Composer</key><string>Datsuns</string>
+			<key>Persistent ID</key><string>A6A41F6CB75CD6C9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/The%20Datsuns/The%20Datsuns/03%20Lady.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5256</key>
+		<dict>
+			<key>Track ID</key><integer>5256</integer>
+			<key>Name</key><string>How Can A Man With So Many Friends Feel So Alone</string>
+			<key>Artist</key><string>Eagles of Death Metal</string>
+			<key>Album Artist</key><string>Eagles of Death Metal</string>
+			<key>Album</key><string>Heart On</string>
+			<key>Genre</key><string>Garage Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4826047</integer>
+			<key>Total Time</key><integer>182465</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:21Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:20Z</date>
+			<key>Bit Rate</key><integer>209</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>.</string>
+			<key>Play Count</key><integer>12</integer>
+			<key>Play Date</key><integer>3625160647</integer>
+			<key>Play Date UTC</key><date>2018-11-16T03:04:07Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2018-04-07T20:21:00Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>9818</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>619A615F7F771513</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Eagles%20of%20Death%20Metal/Heart%20On/09%20How%20Can%20A%20Man%20With%20So%20Many%20Friend.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>6238</key>
+		<dict>
+			<key>Track ID</key><integer>6238</integer>
+			<key>Name</key><string>Take Me with You When You Go</string>
+			<key>Artist</key><string>Jack White</string>
+			<key>Album Artist</key><string>Jack White</string>
+			<key>Album</key><string>Blunderbuss</string>
+			<key>Genre</key><string>Blues Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7324399</integer>
+			<key>Total Time</key><integer>250200</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:36Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:20Z</date>
+			<key>Bit Rate</key><integer>232</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>34</integer>
+			<key>Play Date</key><integer>3592756585</integer>
+			<key>Play Date UTC</key><date>2017-11-06T01:56:25Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>1656</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>0E1545F7A5059801</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Jack%20White/Blunderbuss/13%20Take%20Me%20with%20You%20When%20You%20Go.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>7912</key>
+		<dict>
+			<key>Track ID</key><integer>7912</integer>
+			<key>Name</key><string>Eye Pattern Blindness</string>
+			<key>Artist</key><string>Pond</string>
+			<key>Album Artist</key><string>Pond</string>
+			<key>Album</key><string>Beard, Wives, Denim</string>
+			<key>Genre</key><string>Psychadelic Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>14389158</integer>
+			<key>Total Time</key><integer>358713</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:43Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>42</integer>
+			<key>Play Date</key><integer>3594143748</integer>
+			<key>Play Date UTC</key><date>2017-11-22T03:15:48Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2017-10-09T00:50:35Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Normalization</key><integer>10745</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A60D9112B89B2E86</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Pond/Beard,%20Wives,%20Denim/12%20Eye%20Pattern%20Blindness.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>8146</key>
+		<dict>
+			<key>Track ID</key><integer>8146</integer>
+			<key>Name</key><string>fuse</string>
+			<key>Artist</key><string>Radio Moscow</string>
+			<key>Album Artist</key><string>Radio Moscow</string>
+			<key>Composer</key><string>Parker Griggs</string>
+			<key>Album</key><string>Radio Moscow</string>
+			<key>Genre</key><string>Blues Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4768508</integer>
+			<key>Total Time</key><integer>193306</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:48Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:20Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>27</integer>
+			<key>Play Date</key><integer>3592489911</integer>
+			<key>Play Date UTC</key><date>2017-11-02T22:51:51Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2016-11-25T18:02:31Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>4290</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FC1EA6F485078650</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Radio%20Moscow/Radio%20Moscow/10%20fuse.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>8654</key>
+		<dict>
+			<key>Track ID</key><integer>8654</integer>
+			<key>Name</key><string>Testify</string>
+			<key>Artist</key><string>Stevie Ray Vaughan</string>
+			<key>Album Artist</key><string>Stevie Ray Vaughan</string>
+			<key>Composer</key><string>G. Clinton, D. Taylor</string>
+			<key>Album</key><string>Texas Flood</string>
+			<key>Genre</key><string>Blues Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4945682</integer>
+			<key>Total Time</key><integer>205296</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>1983</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:15Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:21Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string> 00000766 0000049D 00003B1B 00002654 0001F5D6 0002AA8D 00007FFF 00006D6E 000129C1 00012EF5</string>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3585659105</integer>
+			<key>Play Date UTC</key><date>2017-08-15T21:25:05Z</date>
+			<key>Skip Count</key><integer>14</integer>
+			<key>Skip Date</key><date>2017-11-22T03:40:30Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Normalization</key><integer>1894</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FFA52376657D8C37</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Stevie%20Ray%20Vaughan/Texas%20Flood/05%20Testify.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>8930</key>
+		<dict>
+			<key>Track ID</key><integer>8930</integer>
+			<key>Name</key><string>A Question Isn't Answered</string>
+			<key>Artist</key><string>Temples</string>
+			<key>Album Artist</key><string>Temples</string>
+			<key>Album</key><string>Sun Structures</string>
+			<key>Genre</key><string>Psychadelic Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>12546973</integer>
+			<key>Total Time</key><integer>311771</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:26Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:21Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3579787448</integer>
+			<key>Play Date UTC</key><date>2017-06-08T22:24:08Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>6870</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Question Isn't Answered</string>
+			<key>Persistent ID</key><string>B6C8E8539A88A1F1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Temples/Sun%20Structures/08%20A%20Question%20Isn't%20Answered.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>8948</key>
+		<dict>
+			<key>Track ID</key><integer>8948</integer>
+			<key>Name</key><string>Dead End Friends</string>
+			<key>Artist</key><string>Them Crooked Vultures</string>
+			<key>Album Artist</key><string>Them Crooked Vultures</string>
+			<key>Album</key><string>Them Crooked Vultures</string>
+			<key>Genre</key><string>Hard Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6088533</integer>
+			<key>Total Time</key><integer>195578</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2018-04-05T04:40:02Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:21Z</date>
+			<key>Bit Rate</key><integer>246</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3582106249</integer>
+			<key>Play Date UTC</key><date>2017-07-05T18:30:49Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2016-11-15T04:46:35Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>9818</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Them Crooked Vultures</string>
+			<key>Sort Artist</key><string>Them Crooked Vultures</string>
+			<key>Persistent ID</key><string>4903E3ACFA014CE1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Them%20Crooked%20Vultures/Them%20Crooked%20Vultures/04%20Dead%20End%20Friends.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9134</key>
+		<dict>
+			<key>Track ID</key><integer>9134</integer>
+			<key>Name</key><string>Feel</string>
+			<key>Artist</key><string>Ty Segall</string>
+			<key>Album Artist</key><string>Ty Segall</string>
+			<key>Album</key><string>Manipulator</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10256361</integer>
+			<key>Total Time</key><integer>255294</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:38Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:21Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3569167491</integer>
+			<key>Play Date UTC</key><date>2017-02-06T01:24:51Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2016-06-11T05:21:51Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Normalization</key><integer>5185</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>E930391C5906A313</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Ty%20Segall/Manipulator/05%20Feel.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9498</key>
+		<dict>
+			<key>Track ID</key><integer>9498</integer>
+			<key>Name</key><string>Moaning Lisa Smile</string>
+			<key>Artist</key><string>Wolf Alice</string>
+			<key>Album Artist</key><string>Wolf Alice</string>
+			<key>Album</key><string>Creature Songs</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6444817</integer>
+			<key>Total Time</key><integer>160809</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:19:03Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:21Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>27</integer>
+			<key>Play Date</key><integer>3622283499</integer>
+			<key>Play Date UTC</key><date>2018-10-13T18:51:39Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>16191</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5D71067C1F3623A7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Wolf%20Alice/Creature%20Songs/01%20Moaning%20Lisa%20Smile.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9516</key>
+		<dict>
+			<key>Track ID</key><integer>9516</integer>
+			<key>Name</key><string>Pilgrim</string>
+			<key>Artist</key><string>Wolfmother</string>
+			<key>Album Artist</key><string>Wolfmother</string>
+			<key>Composer</key><string>Andrew Stockdale</string>
+			<key>Album</key><string>Cosmic Egg</string>
+			<key>Genre</key><string>Hard Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10966526</integer>
+			<key>Total Time</key><integer>290115</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2018-04-15T23:19:03Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:21Z</date>
+			<key>Bit Rate</key><integer>298</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>Track 10</string>
+			<key>Play Count</key><integer>28</integer>
+			<key>Play Date</key><integer>3627648418</integer>
+			<key>Play Date UTC</key><date>2018-12-14T22:06:58Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2016-10-10T02:22:35Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>9612</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FA9A9B81F8D3FE01</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Wolfmother/Cosmic%20Egg/10%20Pilgrim.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9556</key>
+		<dict>
+			<key>Track ID</key><integer>9556</integer>
+			<key>Name</key><string>Wire Frame Mattress</string>
+			<key>Artist</key><string>The Wytches</string>
+			<key>Album Artist</key><string>The Wytches</string>
+			<key>Album</key><string>Annabel Dream Reader</string>
+			<key>Genre</key><string>Psychadelic Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9173598</integer>
+			<key>Total Time</key><integer>227892</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:19:04Z</date>
+			<key>Date Added</key><date>2015-09-08T01:30:21Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3577286817</integer>
+			<key>Play Date UTC</key><date>2017-05-10T23:46:57Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2017-07-30T04:22:50Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Normalization</key><integer>8663</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Wytches</string>
+			<key>Sort Artist</key><string>Wytches</string>
+			<key>Persistent ID</key><string>6D49512BFC3C096B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/The%20Wytches/Annabel%20Dream%20Reader/06%20Wire%20Frame%20Mattress.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9712</key>
+		<dict>
+			<key>Track ID</key><integer>9712</integer>
+			<key>Name</key><string>Living Zoo</string>
+			<key>Artist</key><string>Built To Spill</string>
+			<key>Album Artist</key><string>Built To Spill</string>
+			<key>Album</key><string>Untethered Moon</string>
+			<key>Genre</key><string>Indie Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>32368561</integer>
+			<key>Total Time</key><integer>262560</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:50Z</date>
+			<key>Date Added</key><date>2015-09-11T20:07:16Z</date>
+			<key>Bit Rate</key><integer>983</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>30</integer>
+			<key>Play Date</key><integer>3588593060</integer>
+			<key>Play Date UTC</key><date>2017-09-18T20:24:20Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2015-12-20T06:11:45Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>6057</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Built To Spill</string>
+			<key>Sort Artist</key><string>Built To Spill</string>
+			<key>Persistent ID</key><string>50779FE3A61B64E2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Built%20To%20Spill/Untethered%20Moon/02%20Living%20Zoo.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9860</key>
+		<dict>
+			<key>Track ID</key><integer>9860</integer>
+			<key>Name</key><string>Take a Trip</string>
+			<key>Artist</key><string>The Sheepdogs</string>
+			<key>Album Artist</key><string>The Sheepdogs</string>
+			<key>Composer</key><string>Ewan Currie</string>
+			<key>Album</key><string>Future Nostalgia</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10360586</integer>
+			<key>Total Time</key><integer>255888</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>22</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:02Z</date>
+			<key>Date Added</key><date>2015-10-28T21:55:55Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>48000</integer>
+			<key>Play Count</key><integer>30</integer>
+			<key>Play Date</key><integer>3594208783</integer>
+			<key>Play Date UTC</key><date>2017-11-22T21:19:43Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2016-11-28T19:12:50Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5748</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Sheepdogs</string>
+			<key>Sort Artist</key><string>Sheepdogs</string>
+			<key>Persistent ID</key><string>5B94DE1D9CD19AC6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/The%20Sheepdogs/Future%20Nostalgia/09%20Take%20a%20Trip.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10184</key>
+		<dict>
+			<key>Track ID</key><integer>10184</integer>
+			<key>Name</key><string>Gimme Love</string>
+			<key>Artist</key><string>Sleater Kinney</string>
+			<key>Album Artist</key><string>Sleater Kinney</string>
+			<key>Album</key><string>No Cities To Love</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7892134</integer>
+			<key>Total Time</key><integer>136515</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:09Z</date>
+			<key>Date Added</key><date>2016-05-05T00:57:10Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>8</integer>
+			<key>Play Date</key><integer>3584362275</integer>
+			<key>Play Date UTC</key><date>2017-07-31T21:11:15Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>10303</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6AFD95E93B5D8165</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Sleater%20Kinney/No%20Cities%20To%20Love/07%20Gimme%20Love.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10220</key>
+		<dict>
+			<key>Track ID</key><integer>10220</integer>
+			<key>Name</key><string>Doo Wah</string>
+			<key>Artist</key><string>Yak</string>
+			<key>Album Artist</key><string>Yak</string>
+			<key>Album</key><string>Alas Salvation</string>
+			<key>Genre</key><string>Garage Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8499498</integer>
+			<key>Total Time</key><integer>202448</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:19:04Z</date>
+			<key>Date Added</key><date>2016-05-17T02:09:57Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3593083124</integer>
+			<key>Play Date UTC</key><date>2017-11-09T20:38:44Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2017-11-22T03:37:31Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Normalization</key><integer>14705</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FD7588BDACDC0738</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Yak/Alas%20Salvation/11%20Doo%20Wah.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10378</key>
+		<dict>
+			<key>Track ID</key><integer>10378</integer>
+			<key>Name</key><string>Flying Golem</string>
+			<key>Artist</key><string>Wand</string>
+			<key>Album Artist</key><string>Wand</string>
+			<key>Album</key><string>Ganglion Reef</string>
+			<key>Genre</key><string>Psychadelic Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8055163</integer>
+			<key>Total Time</key><integer>200594</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:41Z</date>
+			<key>Date Added</key><date>2016-08-09T20:49:32Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>32</integer>
+			<key>Play Date</key><integer>3616174166</integer>
+			<key>Play Date UTC</key><date>2018-08-04T01:49:26Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-08-09T22:56:04Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>11683</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6304B4011C55DBB3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Wand/Ganglion%20Reef/06%20Flying%20Golem.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10664</key>
+		<dict>
+			<key>Track ID</key><integer>10664</integer>
+			<key>Name</key><string>Bad Reputation</string>
+			<key>Artist</key><string>The Reverend Horton Heat</string>
+			<key>Album Artist</key><string>The Reverend Horton Heat</string>
+			<key>Composer</key><string>Jim Heath/Jimbo Wallace</string>
+			<key>Album</key><string>Holy Roller</string>
+			<key>Genre</key><string>Rockabilly</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3543907</integer>
+			<key>Total Time</key><integer>146442</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Year</key><integer>1999</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:51Z</date>
+			<key>Date Added</key><date>2016-11-23T20:24:41Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string> 00000000 00000210 0000078C 0000000000628164 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000</string>
+			<key>Play Count</key><integer>11</integer>
+			<key>Play Date</key><integer>3578241669</integer>
+			<key>Play Date UTC</key><date>2017-05-22T01:01:09Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>5429</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Reverend Horton Heat</string>
+			<key>Sort Artist</key><string>Reverend Horton Heat</string>
+			<key>Persistent ID</key><string>2E0CA603A7FFAF9F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/The%20Reverend%20Horton%20Heat/Holy%20Roller/13%20Bad%20Reputation.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11128</key>
+		<dict>
+			<key>Track ID</key><integer>11128</integer>
+			<key>Name</key><string>Hook, Line &#38; Sinker</string>
+			<key>Artist</key><string>Royal Blood</string>
+			<key>Album Artist</key><string>Royal Blood</string>
+			<key>Album</key><string>How Did We Get So Dark?</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8329639</integer>
+			<key>Total Time</key><integer>207830</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:51Z</date>
+			<key>Date Added</key><date>2017-06-14T20:48:49Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>Hunter [WR Music]</string>
+			<key>Play Count</key><integer>12</integer>
+			<key>Play Date</key><integer>3616200537</integer>
+			<key>Play Date UTC</key><date>2018-08-04T09:08:57Z</date>
+			<key>Skip Count</key><integer>9</integer>
+			<key>Skip Date</key><date>2018-08-03T20:01:08Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>6092</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5AEF1707F9E03C13</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Royal%20Blood/How%20Did%20We%20Get%20So%20Dark_/08%20Hook,%20Line%20&#38;%20Sinker.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11664</key>
+		<dict>
+			<key>Track ID</key><integer>11664</integer>
+			<key>Name</key><string>Galaxy 500</string>
+			<key>Artist</key><string>Reverend Horton Heat</string>
+			<key>Album Artist</key><string>Reverend Horton Heat</string>
+			<key>Album</key><string>Lucky 7</string>
+			<key>Genre</key><string>Rockabilly</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8368056</integer>
+			<key>Total Time</key><integer>196858</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>BPM</key><integer>157</integer>
+			<key>Date Modified</key><date>2018-11-16T02:23:30Z</date>
+			<key>Date Added</key><date>2018-04-14T00:45:11Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3619202150</integer>
+			<key>Play Date UTC</key><date>2018-09-08T02:55:50Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>9821</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>8D99E962B563EF89</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Reverend%20Horton%20Heat/Lucky%207/04%20Galaxy%20500.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11670</key>
+		<dict>
+			<key>Track ID</key><integer>11670</integer>
+			<key>Name</key><string>Slow Dance II</string>
+			<key>Artist</key><string>Naked Giants</string>
+			<key>Album Artist</key><string>Naked Giants</string>
+			<key>Album</key><string>SLUFF</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>12298251</integer>
+			<key>Total Time</key><integer>295523</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2018</integer>
+			<key>BPM</key><integer>98</integer>
+			<key>Date Modified</key><date>2018-07-02T23:14:50Z</date>
+			<key>Date Added</key><date>2018-04-14T01:00:02Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3606569359</integer>
+			<key>Play Date UTC</key><date>2018-04-14T21:49:19Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4062</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7E32EC1124A7CBAE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Naked%20Giants/SLUFF/05%20Slow%20Dance%20II.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11784</key>
+		<dict>
+			<key>Track ID</key><integer>11784</integer>
+			<key>Name</key><string>Tumble In The Rough</string>
+			<key>Artist</key><string>Stone Temple Pilots</string>
+			<key>Album Artist</key><string>Stone Temple Pilots</string>
+			<key>Composer</key><string>Scott Weiland</string>
+			<key>Album</key><string>Tiny Music...Songs From The Vatican Gift Shop</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8181879</integer>
+			<key>Total Time</key><integer>198661</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>BPM</key><integer>136</integer>
+			<key>Date Modified</key><date>2018-07-26T03:14:37Z</date>
+			<key>Date Added</key><date>2018-05-17T04:26:17Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3625745333</integer>
+			<key>Play Date UTC</key><date>2018-11-22T21:28:53Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2018-05-21T00:07:39Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4577</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5E86C48678AD0633</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Stone%20Temple%20Pilots/Tiny%20Music...Songs%20From%20The%20Vatican%20Gift/03%20Tumble%20In%20The%20Rough.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>GuitarBrah</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>31234</integer>
+			<key>Playlist Persistent ID</key><string>74AE3FCED1473C0F</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>10220</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9556</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9516</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9498</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10378</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9134</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8948</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8930</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11784</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10184</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9860</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11128</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11664</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10664</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8146</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>7912</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11670</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>6238</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5256</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>4832</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>4806</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9712</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>4160</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>3978</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8654</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
