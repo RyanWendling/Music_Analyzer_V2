@@ -1,5 +1,5 @@
 // IMPORTS
-const request = require("request");
+const fetch = require("node-fetch");
 // const ryanModule = require("./myModule.js");
 const myDash_ = require("lodash");
 const httpObj = require("http");
@@ -10,10 +10,8 @@ const xml = require("xml-parse");
 
 function traverse(jsonObj, matchingString, resultingArray) {
   for (var i in jsonObj) {
-    //func.apply(this,[i,o[i]]);
     if (jsonObj[i] !== null && typeof jsonObj[i] == "object") {
-      if (jsonObj[i].name == "dict") {
-        //console.log(i, jsonObj[i]);
+      if (jsonObj[i].name == matchingString) {
         resultingArray.push(jsonObj[i]);
       }
       //going one step down in the object tree!!
@@ -22,35 +20,24 @@ function traverse(jsonObj, matchingString, resultingArray) {
   }
 }
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+//Will take API response, parse out artist name and similarity rating, compare to importedArtists map to see if artist already exists (remove whitespace, make lowercase).
+// If new artist doesn't exist within importedArtists map, artistname and similarity rating will then be added to resultsMap. resultsMap will be used after API calls are complete for additional calculations.
+function CalculateAPIResults(apiResponse, resultsMap, importedArtists) {
+  console.log("in calculateAPIResults");
+}
+
 // READ IN DEMO LIBRARY
 function readInLibrary() {
   return new Promise(resolve => {
-    fileServer.readFile("./GuitarBrah.xml", "utf-8", (err, data) => {
-      /*var xmlSongsRoot = new xml.DOM(xml.parse(data));
-      var xmlSongsDicts = xmlSongsRoot.document.getElementsByTagName("dict");
-      var xmlArtistValueMap = new Map();
-
-      for (let k = 2; k < xmlSongsDicts.length; k++) {
-        let xmlCurrentSongDict = xmlSongsDicts[k];
-        for (let i = 0; i < xmlCurrentSongDict.childNodes.length; i++) {
-          if (xmlCurrentSongDict.childNodes[i].innerXML == "Artist") {
-            let xmlArtistValue = xmlCurrentSongDict.childNodes[i + 1].innerXML;
-            if (xmlArtistValueMap.has(xmlArtistValue)) {
-              xmlArtistValueMap.set(
-                xmlArtistValue,
-                xmlArtistValueMap.get(xmlArtistValue) + 1
-              );
-            } else {
-              xmlArtistValueMap.set(xmlArtistValue, 1);
-            }
-          }
-        }
-      }*/
-
+    fileServer.readFile("./testPlaylist.xml", "utf-8", (err, data) => {
       var jsonSongs = convert.xml2json(data, { compact: false, spaces: 4 });
       var jsonSongsObj = JSON.parse(jsonSongs);
       var dictArray = [];
-      traverse(jsonSongsObj, "dict", dictArray); //.document.getElementsByTagName("dict");
+      traverse(jsonSongsObj, "dict", dictArray);
       var jsonArtistValueMap = new Map();
 
       for (let k = 2; k < dictArray.length; k++) {
@@ -69,19 +56,31 @@ function readInLibrary() {
           }
         }
       }
-
+      //sleep(10000).then(() => {
+      //  console.log("World!");
       resolve(jsonArtistValueMap);
+      //});
     });
   });
 }
 
 // MAIN FUNCTION FOR THIS MODULE
 async function AnalyzeMusic() {
-  const ArtistsMap = await readInLibrary();
-  //console.log("result: ", resultYo);
-  for (let [key, value] of ArtistsMap) {
+  let resultsFromCalculateAPIResults;
+  const artistsMap = await readInLibrary();
+  for (let [key, value] of artistsMap) {
     console.log(key + " = " + value);
   }
+
+  //NEED TO TURN REQUEST INTO SYNCHRONOUS / PROMISE BASED VERSION
+  let anAPIResponse = await fetch(
+    `http://ws.audioscrobbler.com/2.0/?method=artist.getInfo&artist=${artistsMap.keys().next().value}&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`
+  );
+  const anAPIResponseJSON = await anAPIResponse.json();
+  console.log(anAPIResponseJSON);
+
+  //call function
+  CalculateAPIResults(anAPIResponseJSON, resultsFromCalculateAPIResults, artistsMap);
 }
 
 // SERVER SETUP TEST
@@ -98,17 +97,6 @@ AnalyzeMusic();
 // TEST MODULE IMPORT
 // console.log(ryanModule.myText);
 
-request(
-  "http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=radiohead&track=paranoid+android&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json",
-  { json: true },
-  (error, response, body) => {
-    if (error) {
-      return console.log(error);
-    }
-    //console.log(JSON.stringify(body));
-  }
-);
-
 console.log("close server");
 appWebServerObj.close();
 
@@ -119,11 +107,3 @@ appWebServerObj.close();
 // 4. print / return results.
 // later: save results to DB. Spruce up front-end with React.
 // NEW IDEA: GET SIMILAR ARTISTS FROM ONES THAT DONT EXIST IN PLAYLIST, DISPLAY HIGHEST RETURNED COUNT
-
-/*request('http://ws.audioscrobbler.com/2.0/?method=artist.getInfo&artist=Kasabian&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json',
-	{ json: true }, (error, response, body) => {
-		if (error) {
-			return console.log(error);
-		}
-		console.log(JSON.stringify(body));
-	});*/
