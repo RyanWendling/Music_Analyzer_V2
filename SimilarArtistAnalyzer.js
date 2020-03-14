@@ -8,22 +8,25 @@ const fileServer = require("fs");
 const convert = require("xml-js");
 const xml = require("xml-parse");
 
-const iterate = obj => {
-  Object.keys(obj).forEach(key => {
-    if (obj[key] == "Artist") {
-      console.log(`key: ${key}, value: ${obj[key]}`);
+function traverse(jsonObj, matchingString, resultingArray) {
+  for (var i in jsonObj) {
+    //func.apply(this,[i,o[i]]);
+    if (jsonObj[i] !== null && typeof jsonObj[i] == "object") {
+      if (jsonObj[i].name == "dict") {
+        //console.log(i, jsonObj[i]);
+        resultingArray.push(jsonObj[i]);
+      }
+      //going one step down in the object tree!!
+      traverse(jsonObj[i], matchingString, resultingArray);
     }
-    if (typeof obj[key] === "object") {
-      iterate(obj[key]);
-    }
-  });
-};
+  }
+}
 
 // READ IN DEMO LIBRARY
 function readInLibrary() {
   return new Promise(resolve => {
-    fileServer.readFile("./testPlaylist.xml", "utf-8", (err, data) => {
-      var xmlSongsRoot = new xml.DOM(xml.parse(data));
+    fileServer.readFile("./GuitarBrah.xml", "utf-8", (err, data) => {
+      /*var xmlSongsRoot = new xml.DOM(xml.parse(data));
       var xmlSongsDicts = xmlSongsRoot.document.getElementsByTagName("dict");
       var xmlArtistValueMap = new Map();
 
@@ -42,22 +45,43 @@ function readInLibrary() {
             }
           }
         }
+      }*/
+
+      var jsonSongs = convert.xml2json(data, { compact: false, spaces: 4 });
+      var jsonSongsObj = JSON.parse(jsonSongs);
+      var dictArray = [];
+      traverse(jsonSongsObj, "dict", dictArray); //.document.getElementsByTagName("dict");
+      var jsonArtistValueMap = new Map();
+
+      for (let k = 2; k < dictArray.length; k++) {
+        let jsonCurrentSongDict = dictArray[k];
+        for (let i = 0; i < jsonCurrentSongDict.elements.length; i++) {
+          if (jsonCurrentSongDict.elements[i].hasOwnProperty("elements")) {
+            var textualValueForCurrentNestedElement = jsonCurrentSongDict.elements[i].elements[0].text;
+            if (textualValueForCurrentNestedElement == "Artist") {
+              let jsonArtistValue = jsonCurrentSongDict.elements[i + 1].elements[0].text;
+              if (jsonArtistValueMap.has(jsonArtistValue)) {
+                jsonArtistValueMap.set(jsonArtistValue, jsonArtistValueMap.get(jsonArtistValue) + 1);
+              } else {
+                jsonArtistValueMap.set(jsonArtistValue, 1);
+              }
+            }
+          }
+        }
       }
 
-      //console.log("wut");
-      //var jsonSongs = convert.xml2json(data, { compact: false, spaces: 4 });
-      //var jsonSongsObj = JSON.parse(jsonSongs);
-      //iterate(jsonSongsObj);
-      resolve(xmlArtistValueMap);
+      resolve(jsonArtistValueMap);
     });
   });
 }
 
 // MAIN FUNCTION FOR THIS MODULE
 async function AnalyzeMusic() {
-  const resultYo = await readInLibrary();
+  const ArtistsMap = await readInLibrary();
   //console.log("result: ", resultYo);
-  console.log("result: ", Object.keys(resultYo));
+  for (let [key, value] of ArtistsMap) {
+    console.log(key + " = " + value);
+  }
 }
 
 // SERVER SETUP TEST
