@@ -25,14 +25,25 @@ function sleep(ms) {
 
 // Will take API response, parse out artist name and similarity rating, compare to importedArtists map to see if artist already exists (remove whitespace, make lowercase).
 // If new artist doesn't exist within importedArtists map, artistname and similarity rating will then be added to resultsMap. resultsMap will be used after API calls are complete for additional calculations.
-function CalculateAPIResults(apiResponse, resultsMap, importedArtists) {
+function CalculateAPIResults(apiResponse, importedArtists, resultsMap = new Map(), multiplier) {
   console.log("in calculateAPIResults");
+  apiResponse.similarartists.artist.forEach(curArtist => {
+    // console.log(curArtist.name);
+    if (!importedArtists.has(curArtist.name.toLowerCase())) {
+      if (!resultsMap.has(curArtist.name)) {
+        resultsMap.set(curArtist.name, parseFloat(curArtist.match) * multiplier);
+      } else {
+        resultsMap.set(curArtist.name, resultsMap.get(curArtist.name) + parseFloat(curArtist.match) * multiplier);
+      }
+    }
+  });
+  return resultsMap;
 }
 
 // READ IN DEMO LIBRARY
 function readInLibrary() {
   return new Promise(resolve => {
-    fileServer.readFile("./testPlaylist.xml", "utf-8", (err, data) => {
+    fileServer.readFile("./EDM.xml", "utf-8", (err, data) => {
       const jsonSongs = convert.xml2json(data, { compact: false, spaces: 4 });
       const jsonSongsObj = JSON.parse(jsonSongs);
       const dictArray = [];
@@ -45,7 +56,7 @@ function readInLibrary() {
           if (jsonCurrentSongDict.elements[i].hasOwnProperty("elements")) {
             const textualValueForCurrentNestedElement = jsonCurrentSongDict.elements[i].elements[0].text;
             if (textualValueForCurrentNestedElement == "Artist") {
-              const jsonArtistValue = jsonCurrentSongDict.elements[i + 1].elements[0].text;
+              const jsonArtistValue = jsonCurrentSongDict.elements[i + 1].elements[0].text.toLowerCase();
               if (jsonArtistValueMap.has(jsonArtistValue)) {
                 jsonArtistValueMap.set(jsonArtistValue, jsonArtistValueMap.get(jsonArtistValue) + 1);
               } else {
@@ -65,19 +76,23 @@ function readInLibrary() {
 
 // MAIN FUNCTION FOR THIS MODULE -------------------------------------------------------------------------------------------------------------------------
 async function AnalyzeMusic() {
-  let resultsFromCalculateAPIResults;
   const artistsMap = await readInLibrary();
+  const resultsFromCalculateAPIResults = new Map();
   for (let [key, value] of artistsMap) {
     console.log(key + " = " + value);
+    // const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${artistsMap.keys().next().value}&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`);
+    const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`);
+    //TODO: add error case where we skip artist / incrementor when response is invalid (the artist wasnt found)
+    const anAPIResponseJSON = await anAPIResponse.json();
+    if (anAPIResponseJSON.hasOwnProperty("error")) {
+      continue;
+    }
+    //console.log(anAPIResponseJSON);
+
+    CalculateAPIResults(anAPIResponseJSON, artistsMap, resultsFromCalculateAPIResults, value);
   }
-
-  const anAPIResponse = await fetch(
-    `http://ws.audioscrobbler.com/2.0/?method=artist.getInfo&artist=${artistsMap.keys().next().value}&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`
-  );
-  const anAPIResponseJSON = await anAPIResponse.json();
-  console.log(anAPIResponseJSON);
-
-  CalculateAPIResults(anAPIResponseJSON, resultsFromCalculateAPIResults, artistsMap);
+  const sortedResults = new Map([...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]));
+  console.log(sortedResults);
 }
 
 // PROGRAM START

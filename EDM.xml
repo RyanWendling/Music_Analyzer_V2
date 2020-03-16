@@ -1,0 +1,2949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2020-03-16T04:50:21Z</date>
+	<key>Application Version</key><string>12.7.4.76</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/</string>
+	<key>Library Persistent ID</key><string>715541E54B1CD42C</string>
+	<key>Tracks</key>
+	<dict>
+		<key>6996</key>
+		<dict>
+			<key>Track ID</key><integer>6996</integer>
+			<key>Name</key><string>Cut Your Teeth (Kygo Remix)</string>
+			<key>Artist</key><string>Kygo</string>
+			<key>Album Artist</key><string>Kygo</string>
+			<key>Album</key><string>Single</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9018483</integer>
+			<key>Total Time</key><integer>224705</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:40Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>http://vk.com/deep_sound_lovers</string>
+			<key>Play Count</key><integer>27</integer>
+			<key>Play Date</key><integer>3584348226</integer>
+			<key>Play Date UTC</key><date>2017-07-31T19:17:06Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>3298</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Kygo</string>
+			<key>Sort Artist</key><string>Kygo</string>
+			<key>Persistent ID</key><string>A85D8950CE7D34FF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Kygo/Single/Cut%20Your%20Teeth%20(Kygo%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>7206</key>
+		<dict>
+			<key>Track ID</key><integer>7206</integer>
+			<key>Name</key><string>Wait (Kygo Remix)</string>
+			<key>Artist</key><string>Kygo</string>
+			<key>Album Artist</key><string>Kygo</string>
+			<key>Album</key><string>Single</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>12056714</integer>
+			<key>Total Time</key><integer>298240</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:40Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3567929528</integer>
+			<key>Play Date UTC</key><date>2017-01-22T19:32:08Z</date>
+			<key>Skip Count</key><integer>11</integer>
+			<key>Skip Date</key><date>2017-10-18T21:05:07Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>1570</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>8B2936C27F97D4B7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Kygo/Single/Wait%20(Kygo%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>7608</key>
+		<dict>
+			<key>Track ID</key><integer>7608</integer>
+			<key>Name</key><string>Sweet n Sour</string>
+			<key>Artist</key><string>MVSCLES</string>
+			<key>Album Artist</key><string>MVSCLES</string>
+			<key>Album</key><string>Sweet n Sour</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4045668</integer>
+			<key>Total Time</key><integer>144326</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:38Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:20Z</date>
+			<key>Bit Rate</key><integer>219</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>12</integer>
+			<key>Play Date</key><integer>3562670552</integer>
+			<key>Play Date UTC</key><date>2016-11-22T22:42:32Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2017-05-09T01:04:55Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>2508</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>MVSCLES</string>
+			<key>Sort Artist</key><string>MVSCLES</string>
+			<key>Persistent ID</key><string>655DCA200DBE4D0D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/MVSCLES/Sweet%20n%20Sour/01%20Sweet%20n%20Sour.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>8634</key>
+		<dict>
+			<key>Track ID</key><integer>8634</integer>
+			<key>Name</key><string>Scylla</string>
+			<key>Artist</key><string>RL Grime</string>
+			<key>Album Artist</key><string>RL Grime</string>
+			<key>Album</key><string>Void</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>11539990</integer>
+			<key>Total Time</key><integer>287216</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:51Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>13</integer>
+			<key>Play Date</key><integer>3573726617</integer>
+			<key>Play Date UTC</key><date>2017-03-30T20:50:17Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2017-06-12T03:15:26Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>6889</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FF73432EECD1016F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/RL%20Grime/Void/03%20Scylla.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>8636</key>
+		<dict>
+			<key>Track ID</key><integer>8636</integer>
+			<key>Name</key><string>Valhalla (feat. Djemba Djemba)</string>
+			<key>Artist</key><string>RL Grime</string>
+			<key>Album Artist</key><string>RL Grime</string>
+			<key>Album</key><string>Void</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9089704</integer>
+			<key>Total Time</key><integer>225959</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:51Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>24</integer>
+			<key>Play Date</key><integer>3583948225</integer>
+			<key>Play Date UTC</key><date>2017-07-27T04:10:25Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2017-01-11T20:02:08Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>9197</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>574916175682D2E2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/RL%20Grime/Void/05%20Valhalla%20(feat.%20Djemba%20Djemba).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>8878</key>
+		<dict>
+			<key>Track ID</key><integer>8878</integer>
+			<key>Name</key><string>Beats Knockin (feat. Fly Boi Keno)</string>
+			<key>Artist</key><string>Jack Ü</string>
+			<key>Album Artist</key><string>Jack Ü</string>
+			<key>Album</key><string>Skrillex and Diplo present Jack Ü</string>
+			<key>Genre</key><string>Dance</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7105198</integer>
+			<key>Total Time</key><integer>173139</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:36Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>Purchased from 7digital.com</string>
+			<key>Play Count</key><integer>24</integer>
+			<key>Play Date</key><integer>3666801689</integer>
+			<key>Play Date UTC</key><date>2020-03-12T03:01:29Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2019-07-31T03:36:21Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>8392</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Jack Ü</string>
+			<key>Sort Artist</key><string>Jack Ü</string>
+			<key>Persistent ID</key><string>122E0F41E6D5E2CE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Jack%20%C3%9C/Skrillex%20and%20Diplo%20present%20Jack%20%C3%9C/02%20Beats%20Knockin%20(feat.%20Fly%20Boi%20Keno.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>8880</key>
+		<dict>
+			<key>Track ID</key><integer>8880</integer>
+			<key>Name</key><string>Mind (feat. Kai)</string>
+			<key>Artist</key><string>Jack Ü</string>
+			<key>Album Artist</key><string>Jack Ü</string>
+			<key>Album</key><string>Skrillex and Diplo present Jack Ü</string>
+			<key>Genre</key><string>Dance</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9864738</integer>
+			<key>Total Time</key><integer>242128</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:36Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>Purchased from 7digital.com</string>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3632750956</integer>
+			<key>Play Date UTC</key><date>2019-02-12T01:29:16Z</date>
+			<key>Skip Count</key><integer>15</integer>
+			<key>Skip Date</key><date>2018-04-07T21:02:26Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>4998</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Jack Ü</string>
+			<key>Sort Artist</key><string>Jack Ü</string>
+			<key>Persistent ID</key><string>E496AFF9A619E77E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Jack%20%C3%9C/Skrillex%20and%20Diplo%20present%20Jack%20%C3%9C/07%20Mind%20(feat.%20Kai).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9140</key>
+		<dict>
+			<key>Track ID</key><integer>9140</integer>
+			<key>Name</key><string>Hey Mami</string>
+			<key>Artist</key><string>Big Wild</string>
+			<key>Album Artist</key><string>Big Wild</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9520538</integer>
+			<key>Total Time</key><integer>234579</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:47Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:21Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3579359198</integer>
+			<key>Play Date UTC</key><date>2017-06-04T01:26:38Z</date>
+			<key>Skip Count</key><integer>17</integer>
+			<key>Skip Date</key><date>2017-10-16T21:12:01Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>3315</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>90F760EE0FBD06C2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Big%20Wild/Unknown%20Album/Hey%20Mami.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9142</key>
+		<dict>
+			<key>Track ID</key><integer>9142</integer>
+			<key>Name</key><string>Miami 82 (Kygo Remix)</string>
+			<key>Artist</key><string>Kygo</string>
+			<key>Album Artist</key><string>Kygo</string>
+			<key>Composer</key><string>Stas Blockbuster</string>
+			<key>Album</key><string>Single</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>13859101</integer>
+			<key>Total Time</key><integer>342021</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:40Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:21Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>Stas Blockbuster</string>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3574157138</integer>
+			<key>Play Date UTC</key><date>2017-04-04T20:25:38Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2019-07-24T05:40:49Z</date>
+			<key>Release Date</key><date>2014-03-23T12:00:00Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>4683</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Kygo</string>
+			<key>Sort Artist</key><string>Kygo</string>
+			<key>Persistent ID</key><string>C2B102E093663B14</string>
+			<key>Disabled</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Kygo/Single/Miami%2082%20(Kygo%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9322</key>
+		<dict>
+			<key>Track ID</key><integer>9322</integer>
+			<key>Name</key><string>Bugg'n</string>
+			<key>Artist</key><string>TNGHT</string>
+			<key>Album Artist</key><string>TNGHT</string>
+			<key>Album</key><string>TNGHT </string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8858001</integer>
+			<key>Total Time</key><integer>205897</integer>
+			<key>Start Time</key><integer>1000</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:27Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:21Z</date>
+			<key>Bit Rate</key><integer>271</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>16</integer>
+			<key>Play Date</key><integer>3577793346</integer>
+			<key>Play Date UTC</key><date>2017-05-16T22:29:06Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2017-05-21T03:59:16Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>2167</integer>
+			<key>Artwork Count</key><integer>2</integer>
+			<key>Persistent ID</key><string>7F62A316319D0F2C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/TNGHT/TNGHT/04%20Bugg'n.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9996</key>
+		<dict>
+			<key>Track ID</key><integer>9996</integer>
+			<key>Name</key><string>Coming Over (feat. James Hersey)</string>
+			<key>Artist</key><string>Kygo</string>
+			<key>Album Artist</key><string>Kygo</string>
+			<key>Album</key><string>This Mixtape is Fire</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>21976132</integer>
+			<key>Total Time</key><integer>178333</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:40Z</date>
+			<key>Date Added</key><date>2015-09-10T23:44:39Z</date>
+			<key>Bit Rate</key><integer>980</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>35</integer>
+			<key>Play Date</key><integer>3574781144</integer>
+			<key>Play Date UTC</key><date>2017-04-12T01:45:44Z</date>
+			<key>Skip Count</key><integer>11</integer>
+			<key>Skip Date</key><date>2017-05-09T01:35:18Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Normalization</key><integer>3392</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B4DDAF8489A955AB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Kygo/This%20Mixtape%20is%20Fire/05%20Coming%20Over%20(feat.%20James%20Hersey).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>9998</key>
+		<dict>
+			<key>Track ID</key><integer>9998</integer>
+			<key>Name</key><string>FUK UR MGMT</string>
+			<key>Artist</key><string>Kill The Noise</string>
+			<key>Album Artist</key><string>Kill The Noise</string>
+			<key>Album</key><string>Occult Classic</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10972818</integer>
+			<key>Total Time</key><integer>225071</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:39Z</date>
+			<key>Date Added</key><date>2015-09-10T23:44:39Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>29</integer>
+			<key>Play Date</key><integer>3592378957</integer>
+			<key>Play Date UTC</key><date>2017-11-01T18:02:37Z</date>
+			<key>Skip Count</key><integer>9</integer>
+			<key>Skip Date</key><date>2017-06-28T00:46:46Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Normalization</key><integer>12850</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB6A031136204559</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Kill%20The%20Noise/Occult%20Classic/1-02%20FUK%20UR%20MGMT.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10012</key>
+		<dict>
+			<key>Track ID</key><integer>10012</integer>
+			<key>Name</key><string>To Ü (feat. AlunaGeorge)</string>
+			<key>Artist</key><string>Jack Ü</string>
+			<key>Album Artist</key><string>Jack Ü</string>
+			<key>Album</key><string>Skrillex and Diplo present Jack Ü</string>
+			<key>Genre</key><string>Dance</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9662044</integer>
+			<key>Total Time</key><integer>237061</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:36Z</date>
+			<key>Date Added</key><date>2015-09-11T19:45:11Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>Purchased from 7digital.com</string>
+			<key>Play Count</key><integer>41</integer>
+			<key>Play Date</key><integer>3592392623</integer>
+			<key>Play Date UTC</key><date>2017-11-01T21:50:23Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2017-01-14T21:27:17Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>8608</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Jack Ü</string>
+			<key>Sort Artist</key><string>Jack Ü</string>
+			<key>Persistent ID</key><string>1780FD02AD591F45</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Jack%20%C3%9C/Skrillex%20and%20Diplo%20present%20Jack%20%C3%9C/05%20To%20%C3%9C%20(feat.%20AlunaGeorge).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10054</key>
+		<dict>
+			<key>Track ID</key><integer>10054</integer>
+			<key>Name</key><string>It's Strange (feat. K.Flay)</string>
+			<key>Artist</key><string>Louis The Child</string>
+			<key>Album Artist</key><string>Louis The Child</string>
+			<key>Album</key><string>It's Strange</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9884327</integer>
+			<key>Total Time</key><integer>245655</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:53Z</date>
+			<key>Date Added</key><date>2015-09-11T22:07:16Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>https://vk.com/trapandbass</string>
+			<key>Play Count</key><integer>34</integer>
+			<key>Play Date</key><integer>3584168749</integer>
+			<key>Play Date UTC</key><date>2017-07-29T17:25:49Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2016-07-20T02:48:49Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>2698</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7B1138D68C06B62C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Louis%20The%20Child/It's%20Strange/01%20It's%20Strange%20(feat.%20K.Flay).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10094</key>
+		<dict>
+			<key>Track ID</key><integer>10094</integer>
+			<key>Name</key><string>Open Season (Gryffin Remix)</string>
+			<key>Artist</key><string>Josef Salvat</string>
+			<key>Album Artist</key><string>Josef Salvat</string>
+			<key>Composer</key><string>Josef Salvat</string>
+			<key>Album</key><string>Open Season (Gryffin Remix) - Single</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9885375</integer>
+			<key>Total Time</key><integer>240065</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:37Z</date>
+			<key>Date Added</key><date>2015-09-24T20:47:14Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>10</integer>
+			<key>Play Date</key><integer>3617553211</integer>
+			<key>Play Date UTC</key><date>2018-08-20T02:53:31Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2019-07-31T03:32:07Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>7425</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>397A05941ADE1528</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Josef%20Salvat/Open%20Season%20(Gryffin%20Remix)%20-%20Single/01%20Open%20Season%20(Gryffin%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10240</key>
+		<dict>
+			<key>Track ID</key><integer>10240</integer>
+			<key>Name</key><string>With Me</string>
+			<key>Artist</key><string>Cashmere Cat</string>
+			<key>Album Artist</key><string>Cashmere Cat</string>
+			<key>Album</key><string>Wedding Bells - EP</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9551478</integer>
+			<key>Total Time</key><integer>237912</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>4</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:58Z</date>
+			<key>Date Added</key><date>2015-11-16T23:31:15Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>48000</integer>
+			<key>Play Count</key><integer>34</integer>
+			<key>Play Date</key><integer>3632751821</integer>
+			<key>Play Date UTC</key><date>2019-02-12T01:43:41Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2017-06-04T09:44:01Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4894</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>C9CF412AAFA4C4C7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Cashmere%20Cat/Wedding%20Bells%20-%20EP/01%20With%20Me.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10358</key>
+		<dict>
+			<key>Track ID</key><integer>10358</integer>
+			<key>Name</key><string>Evolve</string>
+			<key>Artist</key><string>Imagined Herbal Flows</string>
+			<key>Album Artist</key><string>Imagined Herbal Flows</string>
+			<key>Album</key><string>Single</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7821533</integer>
+			<key>Total Time</key><integer>193384</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:35Z</date>
+			<key>Date Added</key><date>2016-02-20T00:07:37Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>33</integer>
+			<key>Play Date</key><integer>3618245929</integer>
+			<key>Play Date UTC</key><date>2018-08-28T03:18:49Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-02-20T00:16:22Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>1259</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Single</string>
+			<key>Persistent ID</key><string>B2AB63D29E351FE9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Imagined%20Herbal%20Flows/Single/Evolve.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10360</key>
+		<dict>
+			<key>Track ID</key><integer>10360</integer>
+			<key>Name</key><string>The Buzz</string>
+			<key>Artist</key><string>Hermitude feat. Mataya &#38; Young Tapz</string>
+			<key>Album Artist</key><string>Hermitude feat. Mataya &#38; Young Tapz</string>
+			<key>Album</key><string>Dark Night Sweet Light</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6927574</integer>
+			<key>Total Time</key><integer>222955</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:34Z</date>
+			<key>Date Added</key><date>2016-02-20T00:16:17Z</date>
+			<key>Bit Rate</key><integer>245</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>13</integer>
+			<key>Play Date</key><integer>3622310684</integer>
+			<key>Play Date UTC</key><date>2018-10-14T04:24:44Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>3441</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Hermitude feat. Mataya &#38; Tapz, Young</string>
+			<key>Sort Artist</key><string>Hermitude feat. Mataya &#38; Tapz, Young</string>
+			<key>Sort Name</key><string>Buzz</string>
+			<key>Persistent ID</key><string>BAD5F2FDF5F24CCE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Hermitude%20feat.%20Mataya%20&#38;%20Young%20Tapz/Dark%20Night%20Sweet%20Light/07%20The%20Buzz.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10362</key>
+		<dict>
+			<key>Track ID</key><integer>10362</integer>
+			<key>Name</key><string>Never Be Like You (feat. Kai)</string>
+			<key>Artist</key><string>Flume</string>
+			<key>Album Artist</key><string>Flume</string>
+			<key>Composer</key><string>Flume</string>
+			<key>Album</key><string>Never Be Like You (feat. Kai) - Single</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9505491</integer>
+			<key>Total Time</key><integer>234971</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:28Z</date>
+			<key>Date Added</key><date>2016-02-20T00:18:24Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>14</integer>
+			<key>Play Date</key><integer>3632751583</integer>
+			<key>Play Date UTC</key><date>2019-02-12T01:39:43Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2017-05-21T01:36:17Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5223</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7B97B927A6B973DA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Flume/Never%20Be%20Like%20You%20(feat.%20Kai)%20-%20Single/01%20Never%20Be%20Like%20You%20(feat.%20Kai).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10366</key>
+		<dict>
+			<key>Track ID</key><integer>10366</integer>
+			<key>Name</key><string>Proud (Autograf Remix)</string>
+			<key>Artist</key><string>Temptations</string>
+			<key>Album Artist</key><string>Temptations</string>
+			<key>Album</key><string>Proud</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>11879381</integer>
+			<key>Total Time</key><integer>284447</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:26Z</date>
+			<key>Date Added</key><date>2016-02-20T00:20:18Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>FRESH DANCE MUSIC
+vk.com/freshdancemusic</string>
+			<key>Play Count</key><integer>29</integer>
+			<key>Play Date</key><integer>3591009143</integer>
+			<key>Play Date UTC</key><date>2017-10-16T21:32:23Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2017-05-12T00:35:04Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>2800</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>50C2BD48E5B9FC1E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Temptations/Proud/01%20Proud%20(Autograf%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10370</key>
+		<dict>
+			<key>Track ID</key><integer>10370</integer>
+			<key>Name</key><string>Ocean Eyes (Astronomyy Edit)</string>
+			<key>Artist</key><string>Billie Eilish &#38; Astronomyy</string>
+			<key>Album Artist</key><string>Billie Eilish &#38; Astronomyy</string>
+			<key>Album</key><string>Ocean Eyes (Astronomyy Edit)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>11922004</integer>
+			<key>Total Time</key><integer>296254</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:47Z</date>
+			<key>Date Added</key><date>2016-02-20T00:33:56Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3579617971</integer>
+			<key>Play Date UTC</key><date>2017-06-07T01:19:31Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2016-04-14T20:31:35Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>2040</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Eilish, Billie &#38; Astronomyy</string>
+			<key>Sort Artist</key><string>Eilish, Billie &#38; Astronomyy</string>
+			<key>Persistent ID</key><string>A691CC895EFF795E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Billie%20Eilish%20&#38;%20Astronomyy/Ocean%20Eyes%20(Astronomyy%20Edit)/01%20Ocean%20Eyes%20(Astronomyy%20Edit).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10472</key>
+		<dict>
+			<key>Track ID</key><integer>10472</integer>
+			<key>Name</key><string>One Day Theyll Know</string>
+			<key>Artist</key><string>ODESZA</string>
+			<key>Album Artist</key><string>ODESZA</string>
+			<key>Album</key><string>Single</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10465041</integer>
+			<key>Total Time</key><integer>260649</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:40Z</date>
+			<key>Date Added</key><date>2016-04-14T02:35:08Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>30</integer>
+			<key>Play Date</key><integer>3656740106</integer>
+			<key>Play Date UTC</key><date>2019-11-16T17:08:26Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>5542</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6E0955224867A3E9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/ODESZA/Single/One%20Day%20Theyll%20Know.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10568</key>
+		<dict>
+			<key>Track ID</key><integer>10568</integer>
+			<key>Name</key><string>Take On Me (Kygo Remix)</string>
+			<key>Artist</key><string>Kygo</string>
+			<key>Album Artist</key><string>Kygo</string>
+			<key>Album</key><string>Single</string>
+			<key>Genre</key><string>Electronica/Dance</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9060113</integer>
+			<key>Total Time</key><integer>226089</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:40Z</date>
+			<key>Date Added</key><date>2016-05-17T05:04:16Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>
+</string>
+			<key>Play Count</key><integer>24</integer>
+			<key>Play Date</key><integer>3577115497</integer>
+			<key>Play Date UTC</key><date>2017-05-09T02:11:37Z</date>
+			<key>Skip Count</key><integer>9</integer>
+			<key>Skip Date</key><date>2018-10-14T04:46:24Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>5285</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>86241B5319F9EE34</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Kygo/Single/Take%20On%20Me%20(Kygo%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10588</key>
+		<dict>
+			<key>Track ID</key><integer>10588</integer>
+			<key>Name</key><string>Say It</string>
+			<key>Artist</key><string>Flume feat. Tove Lo</string>
+			<key>Album Artist</key><string>Flume feat. Tove Lo</string>
+			<key>Album</key><string>Skin</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6338122</integer>
+			<key>Total Time</key><integer>262632</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>16</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:28Z</date>
+			<key>Date Added</key><date>2016-05-25T05:55:44Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>48000</integer>
+			<key>Comments</key><string>Flume - Say It feat. Tove Lo
+
+Pre-order the Skin album at http://flu.me/
+
+Follow Flume
+Facebook: https://www.facebook.com/flumemusic
+Instagram: https://www.instagram.com/flumemusic
+Twitter: https://twitter.com/flumemusic
+Spotify: http://smarturl.i</string>
+			<key>Play Count</key><integer>18</integer>
+			<key>Play Date</key><integer>3583346495</integer>
+			<key>Play Date UTC</key><date>2017-07-20T05:01:35Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2017-07-26T22:45:18Z</date>
+			<key>Release Date</key><date>1969-12-23T14:12:16Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>3695</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Flume feat. Tove Lo</string>
+			<key>Sort Artist</key><string>Flume feat. Tove Lo</string>
+			<key>Persistent ID</key><string>6AC909ED43BEBF0D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Flume%20feat.%20Tove%20Lo/Skin/05%20Say%20It.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10590</key>
+		<dict>
+			<key>Track ID</key><integer>10590</integer>
+			<key>Name</key><string>Wall Fuck</string>
+			<key>Artist</key><string>Flume</string>
+			<key>Album Artist</key><string>Flume</string>
+			<key>Album</key><string>Skin</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4558986</integer>
+			<key>Total Time</key><integer>188544</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>16</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:28Z</date>
+			<key>Date Added</key><date>2016-05-25T05:55:44Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>48000</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3578240464</integer>
+			<key>Play Date UTC</key><date>2017-05-22T02:41:04Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2020-03-12T03:48:24Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4153</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Flume</string>
+			<key>Sort Artist</key><string>Flume</string>
+			<key>Persistent ID</key><string>AD275868ED456414</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Flume/Skin/06%20Wall%20Fuck.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10592</key>
+		<dict>
+			<key>Track ID</key><integer>10592</integer>
+			<key>Name</key><string>Smoke &#38; Retribution</string>
+			<key>Artist</key><string>Flume feat. Vince Staples &#38; KUČKA</string>
+			<key>Album Artist</key><string>Flume feat. Vince Staples &#38; KUČKA</string>
+			<key>Album</key><string>Skin</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5826634</integer>
+			<key>Total Time</key><integer>241320</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>16</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:28Z</date>
+			<key>Date Added</key><date>2016-05-25T05:55:44Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>48000</integer>
+			<key>Comments</key><string>Here's another new one! It's called Smoke &#38; Retribution, I made it with Vince Staples and Kučka. Been hanging out to drop this one, hope you like it.
+
+Out Jan 29. Get it here: http://smarturl.it/FlumeSR
+
+@Vince-Staples-1
+@Kucka
+
+Artwork by Jonathan Zawada</string>
+			<key>Play Count</key><integer>43</integer>
+			<key>Play Date</key><integer>3588871088</integer>
+			<key>Play Date UTC</key><date>2017-09-22T03:38:08Z</date>
+			<key>Skip Count</key><integer>9</integer>
+			<key>Skip Date</key><date>2017-08-17T16:40:47Z</date>
+			<key>Release Date</key><date>1969-12-23T14:12:16Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4304</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Flume feat. Staples, Vince &#38; Kucka</string>
+			<key>Sort Artist</key><string>Flume feat. Staples, Vince &#38; Kucka</string>
+			<key>Persistent ID</key><string>008F641508CCE16A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Flume%20feat.%20Vince%20Staples%20&#38;%20KU%C4%8CKA/Skin/08%20Smoke%20&#38;%20Retribution.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10740</key>
+		<dict>
+			<key>Track ID</key><integer>10740</integer>
+			<key>Name</key><string> Purple Lamborghini</string>
+			<key>Artist</key><string>Skrillex</string>
+			<key>Album Artist</key><string>Skrillex</string>
+			<key>Album</key><string>Suicide Squad: The Album</string>
+			<key>Genre</key><string>Dubstep</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9178887</integer>
+			<key>Total Time</key><integer>210703</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>BPM</key><integer>130</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:09Z</date>
+			<key>Date Added</key><date>2016-08-19T20:05:11Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3572011177</integer>
+			<key>Play Date UTC</key><date>2017-03-11T01:19:37Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2019-02-10T06:29:23Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5354</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Skrillex</string>
+			<key>Sort Artist</key><string>Skrillex</string>
+			<key>Persistent ID</key><string>04C2FBEA5FC85BE0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Skrillex/Suicide%20Squad_%20The%20Album/01%20%20Purple%20Lamborghini.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10742</key>
+		<dict>
+			<key>Track ID</key><integer>10742</integer>
+			<key>Name</key><string>Don't Worry</string>
+			<key>Artist</key><string>Autograf</string>
+			<key>Album Artist</key><string>Autograf</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9476274</integer>
+			<key>Total Time</key><integer>235572</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T22:53:38Z</date>
+			<key>Date Added</key><date>2016-08-19T20:08:59Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>20</integer>
+			<key>Play Date</key><integer>3628965878</integer>
+			<key>Play Date UTC</key><date>2018-12-30T06:04:38Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2018-11-16T04:01:45Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>2510</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Autograf</string>
+			<key>Sort Artist</key><string>Autograf</string>
+			<key>Sort Name</key><string>Don't Worry</string>
+			<key>Persistent ID</key><string>99BE2CC30E477F7E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Autograf/Unknown%20Album/Don't%20Worry.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10746</key>
+		<dict>
+			<key>Track ID</key><integer>10746</integer>
+			<key>Name</key><string>Elevated (Joe Mason Remix)</string>
+			<key>Artist</key><string>RKCB</string>
+			<key>Album Artist</key><string>RKCB</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8737975</integer>
+			<key>Total Time</key><integer>215379</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>BPM</key><integer>130</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:51Z</date>
+			<key>Date Added</key><date>2016-08-19T20:15:14Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>26</integer>
+			<key>Play Date</key><integer>3619624906</integer>
+			<key>Play Date UTC</key><date>2018-09-13T02:21:46Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2017-07-03T03:44:13Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>3015</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A4778F323CBF7C4F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/RKCB/Unknown%20Album/Elevated%20(Joe%20Mason%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10758</key>
+		<dict>
+			<key>Track ID</key><integer>10758</integer>
+			<key>Name</key><string>Back Again</string>
+			<key>Artist</key><string>Party Favor</string>
+			<key>Album Artist</key><string>Party Favor</string>
+			<key>Album</key><string>Party &#38; Destroy - EP</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7312124</integer>
+			<key>Total Time</key><integer>181263</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>6</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:42Z</date>
+			<key>Date Added</key><date>2016-08-20T00:14:39Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>10</integer>
+			<key>Play Date</key><integer>3577045722</integer>
+			<key>Play Date UTC</key><date>2017-05-08T06:48:42Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2019-07-30T05:12:36Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>9816</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Party &#38; Destroy - EP</string>
+			<key>Persistent ID</key><string>4D938AAF546C2FBF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Party%20Favor/Party%20&#38;%20Destroy%20-%20EP/02%20Back%20Again.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10760</key>
+		<dict>
+			<key>Track ID</key><integer>10760</integer>
+			<key>Name</key><string>Scrape (feat. Gucci Mane)</string>
+			<key>Artist</key><string>Party Favor</string>
+			<key>Album Artist</key><string>Party Favor</string>
+			<key>Album</key><string>Party &#38; Destroy - EP</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10294262</integer>
+			<key>Total Time</key><integer>255817</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>6</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:42Z</date>
+			<key>Date Added</key><date>2016-08-20T00:14:39Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3634142749</integer>
+			<key>Play Date UTC</key><date>2019-02-28T04:05:49Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>8087</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Party &#38; Destroy - EP</string>
+			<key>Persistent ID</key><string>90D8968DE76AFD28</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Party%20Favor/Party%20&#38;%20Destroy%20-%20EP/03%20Scrape%20(feat.%20Gucci%20Mane).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10762</key>
+		<dict>
+			<key>Track ID</key><integer>10762</integer>
+			<key>Name</key><string>Shut It Down</string>
+			<key>Artist</key><string>Party Favor</string>
+			<key>Album Artist</key><string>Party Favor</string>
+			<key>Album</key><string>Party &#38; Destroy - EP</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8148042</integer>
+			<key>Total Time</key><integer>202161</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>6</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:42Z</date>
+			<key>Date Added</key><date>2016-08-20T00:14:39Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3623778718</integer>
+			<key>Play Date UTC</key><date>2018-10-31T04:11:58Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2018-08-03T22:20:08Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>9136</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Party &#38; Destroy - EP</string>
+			<key>Persistent ID</key><string>56120230012E4B5E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Party%20Favor/Party%20&#38;%20Destroy%20-%20EP/05%20Shut%20It%20Down.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10764</key>
+		<dict>
+			<key>Track ID</key><integer>10764</integer>
+			<key>Name</key><string>Whole Lotta Money (feat. Rich The Kid)</string>
+			<key>Artist</key><string>Party Favor</string>
+			<key>Album Artist</key><string>Party Favor</string>
+			<key>Album</key><string>Party &#38; Destroy - EP</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7300630</integer>
+			<key>Total Time</key><integer>180976</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>6</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:42Z</date>
+			<key>Date Added</key><date>2016-08-20T00:14:39Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>27</integer>
+			<key>Play Date</key><integer>3617554809</integer>
+			<key>Play Date UTC</key><date>2018-08-20T03:20:09Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>9244</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Party &#38; Destroy - EP</string>
+			<key>Persistent ID</key><string>CB676CB5D1FB7200</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Party%20Favor/Party%20&#38;%20Destroy%20-%20EP/06%20Whole%20Lotta%20Money%20(feat.%20Rich%20The.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10804</key>
+		<dict>
+			<key>Track ID</key><integer>10804</integer>
+			<key>Name</key><string>Front to back</string>
+			<key>Artist</key><string>Buku</string>
+			<key>Album Artist</key><string>Buku</string>
+			<key>Album</key><string>Might Be</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10095106</integer>
+			<key>Total Time</key><integer>251350</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>3</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-06-21T22:46:55Z</date>
+			<key>Date Added</key><date>2016-09-28T05:07:01Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>iTunSMPB</string>
+			<key>Play Count</key><integer>12</integer>
+			<key>Play Date</key><integer>3617554344</integer>
+			<key>Play Date UTC</key><date>2018-08-20T03:12:24Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>5908</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Buku</string>
+			<key>Sort Artist</key><string>Buku</string>
+			<key>Persistent ID</key><string>1B7C7CB599465B8C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Buku/Might%20Be/02%20Front%20to%20back.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10926</key>
+		<dict>
+			<key>Track ID</key><integer>10926</integer>
+			<key>Name</key><string>Latch</string>
+			<key>Artist</key><string>Disclosure</string>
+			<key>Album Artist</key><string>Disclosure</string>
+			<key>Album</key><string>Settle</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10309323</integer>
+			<key>Total Time</key><integer>255660</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2013</integer>
+			<key>Date Modified</key><date>2018-06-07T01:58:34Z</date>
+			<key>Date Added</key><date>2016-10-27T04:42:54Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>15</integer>
+			<key>Play Date</key><integer>3605972115</integer>
+			<key>Play Date UTC</key><date>2018-04-08T01:55:15Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2017-06-28T01:11:04Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4944</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Disclosure</string>
+			<key>Sort Artist</key><string>Disclosure</string>
+			<key>Sort Name</key><string>Latch</string>
+			<key>Persistent ID</key><string>A5C96E5E0433EEE0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Disclosure/Settle/03%20Latch.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10928</key>
+		<dict>
+			<key>Track ID</key><integer>10928</integer>
+			<key>Name</key><string>What's in Your Head</string>
+			<key>Artist</key><string>Disclosure</string>
+			<key>Album Artist</key><string>Disclosure</string>
+			<key>Album</key><string>Settle</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>13323820</integer>
+			<key>Total Time</key><integer>330762</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>16</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2013</integer>
+			<key>Date Modified</key><date>2018-06-07T01:58:34Z</date>
+			<key>Date Added</key><date>2016-10-27T04:43:08Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>8</integer>
+			<key>Play Date</key><integer>3577701297</integer>
+			<key>Play Date UTC</key><date>2017-05-15T20:54:57Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2018-09-12T02:40:16Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>3399</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Disclosure</string>
+			<key>Sort Artist</key><string>Disclosure</string>
+			<key>Persistent ID</key><string>F4303F06062EB5BC</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Disclosure/Settle/16%20What's%20in%20Your%20Head.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10946</key>
+		<dict>
+			<key>Track ID</key><integer>10946</integer>
+			<key>Name</key><string>Thinking About You</string>
+			<key>Artist</key><string>Axwell λ Ingrosso </string>
+			<key>Album Artist</key><string>Axwell λ Ingrosso </string>
+			<key>Album</key><string>Single</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8120416</integer>
+			<key>Total Time</key><integer>200907</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T22:53:38Z</date>
+			<key>Date Added</key><date>2016-11-03T06:22:30Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>11</integer>
+			<key>Play Date</key><integer>3578402875</integer>
+			<key>Play Date UTC</key><date>2017-05-23T23:47:55Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2017-06-20T22:29:35Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>5136</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Single</string>
+			<key>Sort Album Artist</key><string>Axwell λ Ingrosso </string>
+			<key>Sort Artist</key><string>Axwell λ Ingrosso </string>
+			<key>Sort Name</key><string>Thinking About You</string>
+			<key>Persistent ID</key><string>B5DEBEA3EEF84CD2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Axwell%20%CE%BB%20Ingrosso/Single/Thinking%20About%20You.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11068</key>
+		<dict>
+			<key>Track ID</key><integer>11068</integer>
+			<key>Name</key><string>Junkie (feat. Nevve &#38; Monstre)</string>
+			<key>Artist</key><string>Kill Paris</string>
+			<key>Album Artist</key><string>Kill Paris</string>
+			<key>Album</key><string>Junkie (feat. Nevve &#38; Monstre)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7082122</integer>
+			<key>Total Time</key><integer>175934</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:39Z</date>
+			<key>Date Added</key><date>2017-01-12T01:48:15Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3591091195</integer>
+			<key>Play Date UTC</key><date>2017-10-17T20:19:55Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2017-08-07T04:14:36Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5942</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6ADE7C98CCB84D25</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Kill%20Paris/Junkie%20(feat.%20Nevve%20&#38;%20Monstre)/01%20Junkie%20(feat.%20Nevve%20&#38;%20Monstre).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11072</key>
+		<dict>
+			<key>Track ID</key><integer>11072</integer>
+			<key>Name</key><string>Falling (Whethan Redo) [feat. Whethan]</string>
+			<key>Artist</key><string>Opia</string>
+			<key>Album Artist</key><string>Opia</string>
+			<key>Album</key><string>Falling (Whethan Redo) [feat. Whethan]</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7641226</integer>
+			<key>Total Time</key><integer>189753</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:41Z</date>
+			<key>Date Added</key><date>2017-01-12T01:48:15Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3591381125</integer>
+			<key>Play Date UTC</key><date>2017-10-21T04:52:05Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2017-03-16T05:19:48Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>2461</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>25D48D44FF4779AD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Opia/Falling%20(Whethan%20Redo)%20%5Bfeat.%20Whethan%5D/01%20Falling%20(Whethan%20Redo)%20%5Bfeat.%20Whe.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11098</key>
+		<dict>
+			<key>Track ID</key><integer>11098</integer>
+			<key>Name</key><string>The Little Things (feat. Angela McCluskey)</string>
+			<key>Artist</key><string>Big Gigantic</string>
+			<key>Album Artist</key><string>Big Gigantic</string>
+			<key>Album</key><string>The Little Things (feat. Angela McCluskey)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>11526282</integer>
+			<key>Total Time</key><integer>286093</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:47Z</date>
+			<key>Date Added</key><date>2017-01-24T03:35:01Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3591092549</integer>
+			<key>Play Date UTC</key><date>2017-10-17T20:42:29Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4710</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Little Things (feat. Angela McCluskey)</string>
+			<key>Sort Name</key><string>Little Things (feat. Angela McCluskey)</string>
+			<key>Persistent ID</key><string>4EAB708E9904BEA2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Big%20Gigantic/The%20Little%20Things%20(feat.%20Angela%20McCluske/01%20The%20Little%20Things%20(feat.%20Angela%20M.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11102</key>
+		<dict>
+			<key>Track ID</key><integer>11102</integer>
+			<key>Name</key><string>All Of Me</string>
+			<key>Artist</key><string>Big Gigantic</string>
+			<key>Album Artist</key><string>Big Gigantic</string>
+			<key>Album</key><string>All Of Me</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9287818</integer>
+			<key>Total Time</key><integer>228231</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:47Z</date>
+			<key>Date Added</key><date>2017-01-24T03:35:01Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3616190654</integer>
+			<key>Play Date UTC</key><date>2018-08-04T08:24:14Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2017-01-31T05:12:58Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>8004</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1544A69FBC38FCF7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Big%20Gigantic/All%20Of%20Me/01%20All%20Of%20Me.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11104</key>
+		<dict>
+			<key>Track ID</key><integer>11104</integer>
+			<key>Name</key><string>C'mon</string>
+			<key>Artist</key><string>Big Gigantic</string>
+			<key>Album Artist</key><string>Big Gigantic</string>
+			<key>Album</key><string>Brighter Future</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9658506</integer>
+			<key>Total Time</key><integer>237479</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:47Z</date>
+			<key>Date Added</key><date>2017-01-24T03:35:01Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>13</integer>
+			<key>Play Date</key><integer>3576488778</integer>
+			<key>Play Date UTC</key><date>2017-05-01T20:06:18Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>10828</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AF047AA72D4A2F14</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Big%20Gigantic/Brighter%20Future/04%20C'mon.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11106</key>
+		<dict>
+			<key>Track ID</key><integer>11106</integer>
+			<key>Name</key><string>Good Times Roll</string>
+			<key>Artist</key><string>Big Gigantic</string>
+			<key>Album Artist</key><string>Big Gigantic</string>
+			<key>Album</key><string>Good Times Roll</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9924746</integer>
+			<key>Total Time</key><integer>243591</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:47Z</date>
+			<key>Date Added</key><date>2017-01-24T03:35:01Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>10</integer>
+			<key>Play Date</key><integer>3596201348</integer>
+			<key>Play Date UTC</key><date>2017-12-16T00:49:08Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2017-03-22T21:54:31Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>7171</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>EBAE991CF8AC5635</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Big%20Gigantic/Good%20Times%20Roll/01%20Good%20Times%20Roll.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11138</key>
+		<dict>
+			<key>Track ID</key><integer>11138</integer>
+			<key>Name</key><string>Don't Let Me Down (feat. Daya)</string>
+			<key>Artist</key><string>Chainsmokers</string>
+			<key>Album Artist</key><string>Chainsmokers</string>
+			<key>Composer</key><string>Andrew Taggart, Emily Warren &#38; Scott Harris</string>
+			<key>Album</key><string>Collage</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7427265</integer>
+			<key>Total Time</key><integer>208718</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-05T03:40:58Z</date>
+			<key>Date Added</key><date>2017-02-08T06:09:42Z</date>
+			<key>Bit Rate</key><integer>267</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3580050329</integer>
+			<key>Play Date UTC</key><date>2017-06-12T01:25:29Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2017-07-02T14:19:51Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4346</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Collage</string>
+			<key>Persistent ID</key><string>A63CC182E3F3AE00</string>
+			<key>Disabled</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Chainsmokers/Collage/1-05%20Don't%20Let%20Me%20Down%20(feat.%20Daya).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11140</key>
+		<dict>
+			<key>Track ID</key><integer>11140</integer>
+			<key>Name</key><string>Roses (feat. ROZES)</string>
+			<key>Artist</key><string>Chainsmokers</string>
+			<key>Album Artist</key><string>Chainsmokers</string>
+			<key>Album</key><string>Bouquet</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9119087</integer>
+			<key>Total Time</key><integer>226847</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:58Z</date>
+			<key>Date Added</key><date>2017-02-08T06:10:55Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3588874758</integer>
+			<key>Play Date UTC</key><date>2017-09-22T04:39:18Z</date>
+			<key>Skip Count</key><integer>9</integer>
+			<key>Skip Date</key><date>2017-09-23T21:32:11Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4912</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Bouquet</string>
+			<key>Sort Name</key><string>Roses (feat. ROZES)</string>
+			<key>Persistent ID</key><string>B630E441B90A013C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Chainsmokers/Bouquet/04%20Roses%20(feat.%20ROZES).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11148</key>
+		<dict>
+			<key>Track ID</key><integer>11148</integer>
+			<key>Name</key><string>Around</string>
+			<key>Artist</key><string>Waterbed</string>
+			<key>Album Artist</key><string>Waterbed</string>
+			<key>Album</key><string>Around</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10145930</integer>
+			<key>Total Time</key><integer>250827</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:41Z</date>
+			<key>Date Added</key><date>2017-02-12T01:43:36Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>13</integer>
+			<key>Play Date</key><integer>3667151026</integer>
+			<key>Play Date UTC</key><date>2020-03-16T04:03:46Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2017-04-06T19:27:44Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4834</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1FD588A7F83529CA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Waterbed/Around/01%20Around.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11150</key>
+		<dict>
+			<key>Track ID</key><integer>11150</integer>
+			<key>Name</key><string>Day n Nite</string>
+			<key>Artist</key><string>Waterbed</string>
+			<key>Album Artist</key><string>Waterbed</string>
+			<key>Album</key><string>Waterbed EP</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7426186</integer>
+			<key>Total Time</key><integer>184372</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>3</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:41Z</date>
+			<key>Date Added</key><date>2017-02-12T01:43:36Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>8</integer>
+			<key>Play Date</key><integer>3634143179</integer>
+			<key>Play Date UTC</key><date>2019-02-28T04:12:59Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2017-09-22T04:56:07Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5487</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>591410C549CE9C13</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Waterbed/Waterbed%20EP/02%20Day%20n%20Nite.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11238</key>
+		<dict>
+			<key>Track ID</key><integer>11238</integer>
+			<key>Name</key><string>City On Lockdown (feat. Juicy J &#38; Lil Debbie)</string>
+			<key>Artist</key><string>Yellow Claw</string>
+			<key>Album Artist</key><string>Yellow Claw</string>
+			<key>Album</key><string>Los Amsterdam</string>
+			<key>Genre</key><string>Dance</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7876410</integer>
+			<key>Total Time</key><integer>195422</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:19:04Z</date>
+			<key>Date Added</key><date>2017-03-27T21:44:57Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3577783068</integer>
+			<key>Play Date UTC</key><date>2017-05-16T19:37:48Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2017-05-21T04:54:18Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>7741</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>BF49DC656AB0E32D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Yellow%20Claw/Los%20Amsterdam/06%20City%20On%20Lockdown%20(feat.%20Juicy%20J%20&#38;.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11240</key>
+		<dict>
+			<key>Track ID</key><integer>11240</integer>
+			<key>Name</key><string>Friends In The Dark (feat. Otis Parker)</string>
+			<key>Artist</key><string>Yellow Claw</string>
+			<key>Album Artist</key><string>Yellow Claw</string>
+			<key>Album</key><string>Los Amsterdam</string>
+			<key>Genre</key><string>Dance</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7509651</integer>
+			<key>Total Time</key><integer>186253</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:19:04Z</date>
+			<key>Date Added</key><date>2017-03-27T21:44:57Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>www.NewAlbumReleases.net</string>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3586167555</integer>
+			<key>Play Date UTC</key><date>2017-08-21T20:39:15Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>10700</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9095000C4821C7DE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Yellow%20Claw/Los%20Amsterdam/07%20Friends%20In%20The%20Dark%20(feat.%20Otis%20P.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11248</key>
+		<dict>
+			<key>Track ID</key><integer>11248</integer>
+			<key>Name</key><string>WAWA</string>
+			<key>Artist</key><string>Party Favor</string>
+			<key>Album Artist</key><string>Party Favor</string>
+			<key>Album</key><string>WAWA</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6068362</integer>
+			<key>Total Time</key><integer>149890</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:42Z</date>
+			<key>Date Added</key><date>2017-03-28T21:44:21Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>14</integer>
+			<key>Play Date</key><integer>3609357784</integer>
+			<key>Play Date UTC</key><date>2018-05-17T06:23:04Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2017-09-08T10:14:17Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>10218</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5443414D953B81DF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Party%20Favor/WAWA/01%20WAWA.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11310</key>
+		<dict>
+			<key>Track ID</key><integer>11310</integer>
+			<key>Name</key><string>Love Is Alive</string>
+			<key>Artist</key><string>Louis The Child</string>
+			<key>Album Artist</key><string>Louis The Child</string>
+			<key>Album</key><string>Love Is Alive</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6901898</integer>
+			<key>Total Time</key><integer>170657</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:53Z</date>
+			<key>Date Added</key><date>2017-04-26T03:30:33Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3590151888</integer>
+			<key>Play Date UTC</key><date>2017-10-06T23:24:48Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2017-04-26T03:43:15Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4047</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A11F962FA78BA5B7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Louis%20The%20Child/Love%20Is%20Alive/01%20Love%20Is%20Alive.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11312</key>
+		<dict>
+			<key>Track ID</key><integer>11312</integer>
+			<key>Name</key><string>I Just Wanna</string>
+			<key>Artist</key><string>Big Wild</string>
+			<key>Album Artist</key><string>Big Wild</string>
+			<key>Album</key><string>Invincible EP</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7508106</integer>
+			<key>Total Time</key><integer>183301</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T22:54:47Z</date>
+			<key>Date Added</key><date>2017-04-26T03:38:16Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>18</integer>
+			<key>Play Date</key><integer>3587707029</integer>
+			<key>Play Date UTC</key><date>2017-09-08T16:17:09Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4534</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>872C124CD9F686A3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Big%20Wild/Invincible%20EP/03%20I%20Just%20Wanna.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11314</key>
+		<dict>
+			<key>Track ID</key><integer>11314</integer>
+			<key>Name</key><string>So Long (feat. Madi)</string>
+			<key>Artist</key><string>Slushii</string>
+			<key>Album Artist</key><string>Slushii</string>
+			<key>Album</key><string>So Long (feat. Madi)</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7334026</integer>
+			<key>Total Time</key><integer>178808</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:10Z</date>
+			<key>Date Added</key><date>2017-04-26T03:42:20Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>14</integer>
+			<key>Play Date</key><integer>3585768914</integer>
+			<key>Play Date UTC</key><date>2017-08-17T05:55:14Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2017-07-30T06:23:48Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>6063</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A63C1C6DE248A293</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Slushii/So%20Long%20(feat.%20Madi)/01%20So%20Long%20(feat.%20Madi).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11316</key>
+		<dict>
+			<key>Track ID</key><integer>11316</integer>
+			<key>Name</key><string>O.G</string>
+			<key>Artist</key><string>TroyBoi</string>
+			<key>Album Artist</key><string>TroyBoi</string>
+			<key>Album</key><string>All Trap Music, Vol. 4</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8824970</integer>
+			<key>Total Time</key><integer>219010</integer>
+			<key>Track Number</key><integer>35</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:36Z</date>
+			<key>Date Added</key><date>2017-04-26T03:45:57Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>16</integer>
+			<key>Play Date</key><integer>3632751175</integer>
+			<key>Play Date UTC</key><date>2019-02-12T01:32:55Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2017-07-02T15:38:45Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5585</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>10012DE1A87D99F6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/TroyBoi/All%20Trap%20Music,%20Vol.%204/35%20O.G.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11318</key>
+		<dict>
+			<key>Track ID</key><integer>11318</integer>
+			<key>Name</key><string>Inhalant Abuse</string>
+			<key>Artist</key><string>Getter</string>
+			<key>Album Artist</key><string>Getter</string>
+			<key>Album</key><string>Inhalant Abuse</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9953418</integer>
+			<key>Total Time</key><integer>246465</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:32Z</date>
+			<key>Date Added</key><date>2017-04-26T03:52:00Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3579862973</integer>
+			<key>Play Date UTC</key><date>2017-06-09T21:22:53Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>8383</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7E63ECD42836A997</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Getter/Inhalant%20Abuse/01%20Inhalant%20Abuse.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11320</key>
+		<dict>
+			<key>Track ID</key><integer>11320</integer>
+			<key>Name</key><string>Head Splitter</string>
+			<key>Artist</key><string>Getter</string>
+			<key>Album Artist</key><string>Getter</string>
+			<key>Album</key><string>Allegiance</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8616074</integer>
+			<key>Total Time</key><integer>214439</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:32Z</date>
+			<key>Date Added</key><date>2017-04-26T03:52:00Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>25</integer>
+			<key>Play Date</key><integer>3617552322</integer>
+			<key>Play Date UTC</key><date>2018-08-20T02:38:42Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>3802</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1526E535842E8976</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Getter/Allegiance/01%20Head%20Splitter.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11322</key>
+		<dict>
+			<key>Track ID</key><integer>11322</integer>
+			<key>Name</key><string>Back</string>
+			<key>Artist</key><string>Getter</string>
+			<key>Album Artist</key><string>Getter</string>
+			<key>Album</key><string>Radical Dude!</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8229002</integer>
+			<key>Total Time</key><integer>204068</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:32Z</date>
+			<key>Date Added</key><date>2017-04-26T03:54:30Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3578162479</integer>
+			<key>Play Date UTC</key><date>2017-05-21T05:01:19Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2019-07-25T05:34:03Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5758</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>047A03ECA6758417</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Getter/Radical%20Dude!/01%20Back.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11324</key>
+		<dict>
+			<key>Track ID</key><integer>11324</integer>
+			<key>Name</key><string>Suh Dude</string>
+			<key>Artist</key><string>Getter</string>
+			<key>Album Artist</key><string>Getter</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9488271</integer>
+			<key>Total Time</key><integer>222406</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:32Z</date>
+			<key>Date Added</key><date>2017-04-26T03:54:38Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>vk.com/getterdubs</string>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3578403817</integer>
+			<key>Play Date UTC</key><date>2017-05-24T00:03:37Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2018-08-03T22:05:07Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>11737</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>37150602554C79D8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Getter/Unknown%20Album/Suh%20Dude.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11326</key>
+		<dict>
+			<key>Track ID</key><integer>11326</integer>
+			<key>Name</key><string>Sensei </string>
+			<key>Artist</key><string>TroyBoi</string>
+			<key>Album Artist</key><string>TroyBoi</string>
+			<key>Composer</key><string>traphd</string>
+			<key>Album</key><string>traphd</string>
+			<key>Grouping</key><string>traphd</string>
+			<key>Work</key><string>traphd</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8685488</integer>
+			<key>Total Time</key><integer>216894</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-05T04:41:28Z</date>
+			<key>Date Added</key><date>2017-04-26T03:57:38Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>traphd</string>
+			<key>Play Count</key><integer>8</integer>
+			<key>Play Date</key><integer>3618077391</integer>
+			<key>Play Date UTC</key><date>2018-08-26T04:29:51Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5566</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Sensei </string>
+			<key>Persistent ID</key><string>D5FAD98A9DE91C7C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/TroyBoi/traphd/Sensei.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11328</key>
+		<dict>
+			<key>Track ID</key><integer>11328</integer>
+			<key>Name</key><string>End Of The Night ft NGHTMRE</string>
+			<key>Artist</key><string>Ghastly</string>
+			<key>Album Artist</key><string>Ghastly</string>
+			<key>Album</key><string>End Of The Night</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7770250</integer>
+			<key>Total Time</key><integer>191320</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:32Z</date>
+			<key>Date Added</key><date>2017-04-26T04:01:42Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3593425703</integer>
+			<key>Play Date UTC</key><date>2017-11-13T21:48:23Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2019-07-25T05:33:44Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>11202</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Ghastly</string>
+			<key>Sort Artist</key><string>Ghastly</string>
+			<key>Sort Name</key><string>End Of The Night ft NGHTMRE</string>
+			<key>Persistent ID</key><string>5359735F19014C88</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Ghastly/End%20Of%20The%20Night/01%20End%20Of%20The%20Night%20ft%20NGHTMRE.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11330</key>
+		<dict>
+			<key>Track ID</key><integer>11330</integer>
+			<key>Name</key><string>Fuk Watchu Think (feat. Jameston Thieves)</string>
+			<key>Artist</key><string>Ghastly</string>
+			<key>Album Artist</key><string>Ghastly</string>
+			<key>Album</key><string>Fuk Watchu Think (feat. Jameston Thieves)</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8654986</integer>
+			<key>Total Time</key><integer>213054</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:32Z</date>
+			<key>Date Added</key><date>2017-04-26T04:01:42Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3596206892</integer>
+			<key>Play Date UTC</key><date>2017-12-16T02:21:32Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2017-11-13T21:48:41Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>6940</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>37FDB4AD174CC424</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Ghastly/Fuk%20Watchu%20Think%20(feat.%20Jameston%20Thieves/01%20Fuk%20Watchu%20Think%20(feat.%20Jameston.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11332</key>
+		<dict>
+			<key>Track ID</key><integer>11332</integer>
+			<key>Name</key><string>Alone</string>
+			<key>Artist</key><string>Marshmello</string>
+			<key>Album Artist</key><string>Marshmello</string>
+			<key>Album</key><string>Alone</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>11040906</integer>
+			<key>Total Time</key><integer>273867</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:58Z</date>
+			<key>Date Added</key><date>2017-04-26T04:06:56Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3582396048</integer>
+			<key>Play Date UTC</key><date>2017-07-09T05:00:48Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>6997</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>026D3C6EEC3FAE23</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Marshmello/Alone/01%20Alone.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11334</key>
+		<dict>
+			<key>Track ID</key><integer>11334</integer>
+			<key>Name</key><string>Red Lips (feat. Sam Bruno) (Skrillex Remix)</string>
+			<key>Artist</key><string>Skrillex</string>
+			<key>Album Artist</key><string>Skrillex</string>
+			<key>Album</key><string>Red Lips (feat. Sam Bruno)</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9019530</integer>
+			<key>Total Time</key><integer>223503</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:09Z</date>
+			<key>Date Added</key><date>2017-04-26T04:08:14Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3632750503</integer>
+			<key>Play Date UTC</key><date>2019-02-12T01:21:43Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>8305</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Skrillex</string>
+			<key>Sort Artist</key><string>Skrillex</string>
+			<key>Persistent ID</key><string>4AC7319620635CF0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Skrillex/Red%20Lips%20(feat.%20Sam%20Bruno)/01%20Red%20Lips%20(feat.%20Sam%20Bruno)%20(Skril.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11336</key>
+		<dict>
+			<key>Track ID</key><integer>11336</integer>
+			<key>Name</key><string>Make A Move (Skrillex Remix)</string>
+			<key>Artist</key><string>Skrillex</string>
+			<key>Album Artist</key><string>Skrillex</string>
+			<key>Album</key><string>Make A Move</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8517770</integer>
+			<key>Total Time</key><integer>211252</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:09Z</date>
+			<key>Date Added</key><date>2017-04-26T04:08:14Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3632750714</integer>
+			<key>Play Date UTC</key><date>2019-02-12T01:25:14Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2019-07-24T04:11:03Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>7478</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Skrillex</string>
+			<key>Sort Artist</key><string>Skrillex</string>
+			<key>Persistent ID</key><string>1113E3DC89092CA9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Skrillex/Make%20A%20Move/01%20Make%20A%20Move%20(Skrillex%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11338</key>
+		<dict>
+			<key>Track ID</key><integer>11338</integer>
+			<key>Name</key><string>Set Me Free (feat. Liz)</string>
+			<key>Artist</key><string>Diplo</string>
+			<key>Album Artist</key><string>Diplo</string>
+			<key>Album</key><string>Set Me Free</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7905459</integer>
+			<key>Total Time</key><integer>195892</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>BPM</key><integer>75</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:12Z</date>
+			<key>Date Added</key><date>2017-04-26T04:23:05Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>https://vk.com/basscityinvk</string>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3583699473</integer>
+			<key>Play Date UTC</key><date>2017-07-24T07:04:33Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>10620</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D576CD2F5F2216E3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Diplo/Set%20Me%20Free/01%20Set%20Me%20Free%20(feat.%20Liz).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11346</key>
+		<dict>
+			<key>Track ID</key><integer>11346</integer>
+			<key>Name</key><string>Tune In Tune Out</string>
+			<key>Artist</key><string>CUT_</string>
+			<key>Album Artist</key><string>CUT_</string>
+			<key>Album</key><string>Tune In Tune Out</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8446090</integer>
+			<key>Total Time</key><integer>205322</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T22:55:04Z</date>
+			<key>Date Added</key><date>2017-04-26T04:28:38Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>13</integer>
+			<key>Play Date</key><integer>3590870375</integer>
+			<key>Play Date UTC</key><date>2017-10-15T06:59:35Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2018-04-07T00:59:25Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4454</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>8C73BAA6FE682D9B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/CUT_/Tune%20In%20Tune%20Out/01%20Tune%20In%20Tune%20Out.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11348</key>
+		<dict>
+			<key>Track ID</key><integer>11348</integer>
+			<key>Name</key><string>Undertow</string>
+			<key>Artist</key><string>CUT_</string>
+			<key>Album Artist</key><string>CUT_</string>
+			<key>Album</key><string>Undertow</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7927946</integer>
+			<key>Total Time</key><integer>194664</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T22:55:04Z</date>
+			<key>Date Added</key><date>2017-04-26T04:28:38Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3578590213</integer>
+			<key>Play Date UTC</key><date>2017-05-26T03:50:13Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>3858</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>509461ECAD04E83F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/CUT_/Undertow/01%20Undertow.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11352</key>
+		<dict>
+			<key>Track ID</key><integer>11352</integer>
+			<key>Name</key><string>Wiggle Wop (feat. Keno)</string>
+			<key>Artist</key><string>Party Favor</string>
+			<key>Album Artist</key><string>Party Favor</string>
+			<key>Album</key><string>Wiggle Wop (feat. Keno)</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7020682</integer>
+			<key>Total Time</key><integer>171990</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2016</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:42Z</date>
+			<key>Date Added</key><date>2017-04-27T05:24:51Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3576090469</integer>
+			<key>Play Date UTC</key><date>2017-04-27T05:27:49Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2019-02-12T01:17:59Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>8785</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>8AB41D6BC2A120E4</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Party%20Favor/Wiggle%20Wop%20(feat.%20Keno)/01%20Wiggle%20Wop%20(feat.%20Keno).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11358</key>
+		<dict>
+			<key>Track ID</key><integer>11358</integer>
+			<key>Name</key><string>Lingua</string>
+			<key>Artist</key><string>Sub Focus</string>
+			<key>Album Artist</key><string>Sub Focus</string>
+			<key>Album</key><string>Lingua</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8190090</integer>
+			<key>Total Time</key><integer>200097</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:18Z</date>
+			<key>Date Added</key><date>2017-04-28T04:26:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3593425246</integer>
+			<key>Play Date UTC</key><date>2017-11-13T21:40:46Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2019-02-12T01:17:49Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>7304</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F62BA672C6D8382E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Sub%20Focus/Lingua/01%20Lingua.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11644</key>
+		<dict>
+			<key>Track ID</key><integer>11644</integer>
+			<key>Name</key><string>Light</string>
+			<key>Artist</key><string>San Holo</string>
+			<key>Album Artist</key><string>San Holo</string>
+			<key>Album</key><string>Light</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9627786</integer>
+			<key>Total Time</key><integer>239908</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:17:54Z</date>
+			<key>Date Added</key><date>2017-10-07T04:10:30Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3651359158</integer>
+			<key>Play Date UTC</key><date>2019-09-15T09:25:58Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>9050</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A9F1793728961443</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/San%20Holo/Light/01%20Light.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11762</key>
+		<dict>
+			<key>Track ID</key><integer>11762</integer>
+			<key>Name</key><string>KinjaBang</string>
+			<key>Artist</key><string>TroyBoi</string>
+			<key>Album Artist</key><string>TroyBoi</string>
+			<key>Album</key><string>Left Is Right</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4530314</integer>
+			<key>Total Time</key><integer>106057</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>20</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:18:36Z</date>
+			<key>Date Added</key><date>2017-11-13T21:59:32Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3634140285</integer>
+			<key>Play Date UTC</key><date>2019-02-28T03:24:45Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2019-02-12T01:17:11Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5979</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>21BBFCE8E4C85637</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/TroyBoi/Left%20Is%20Right/11%20KinjaBang.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12110</key>
+		<dict>
+			<key>Track ID</key><integer>12110</integer>
+			<key>Name</key><string>Afterhours feat. Diplo &#38; Nina Sky</string>
+			<key>Artist</key><string>TroyBoi</string>
+			<key>Album Artist</key><string>TroyBoi</string>
+			<key>Album</key><string>Afterhours feat. Diplo &#38; Nina Sky</string>
+			<key>Genre</key><string>Trap</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>7816985</integer>
+			<key>Total Time</key><integer>233640</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2018-07-26T03:14:37Z</date>
+			<key>Date Added</key><date>2018-05-17T05:52:46Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3583701784</integer>
+			<key>Play Date UTC</key><date>2017-07-24T07:43:04Z</date>
+			<key>Skip Count</key><integer>9</integer>
+			<key>Skip Date</key><date>2018-05-17T05:51:35Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>11711</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9C5F123F19CCDDBE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/TroyBoi/Afterhours%20feat.%20Diplo%20&#38;%20Nina%20Sky/01%20Afterhours%20feat.%20Diplo%20&#38;%20Nina%20Sky.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12230</key>
+		<dict>
+			<key>Track ID</key><integer>12230</integer>
+			<key>Name</key><string>Laugh Track</string>
+			<key>Artist</key><string>Buku</string>
+			<key>Album Artist</key><string>Buku</string>
+			<key>Album</key><string>Might Be</string>
+			<key>Genre</key><string>Electro</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10145116</integer>
+			<key>Total Time</key><integer>249077</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>3</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>BPM</key><integer>160</integer>
+			<key>Date Modified</key><date>2018-12-14T22:50:50Z</date>
+			<key>Date Added</key><date>2018-06-22T05:13:15Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3612606938</integer>
+			<key>Play Date UTC</key><date>2018-06-23T20:55:38Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>4271</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B48219B382AB3752</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Buku/Might%20Be/02%20Laugh%20Track.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12232</key>
+		<dict>
+			<key>Track ID</key><integer>12232</integer>
+			<key>Name</key><string>Follow (Zomboy Remix)</string>
+			<key>Artist</key><string>Bro Safari</string>
+			<key>Album Artist</key><string>Bro Safari</string>
+			<key>Album</key><string>Follow (Zomboy Remix)</string>
+			<key>Genre</key><string>Dance</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10216700</integer>
+			<key>Total Time</key><integer>253257</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>BPM</key><integer>149</integer>
+			<key>Date Modified</key><date>2018-12-14T22:50:50Z</date>
+			<key>Date Added</key><date>2018-06-22T05:13:15Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3612606691</integer>
+			<key>Play Date UTC</key><date>2018-06-23T20:51:31Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>9623</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6E73AF20BC335D2D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Bro%20Safari/Follow%20(Zomboy%20Remix)/01%20Follow%20(Zomboy%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12776</key>
+		<dict>
+			<key>Track ID</key><integer>12776</integer>
+			<key>Name</key><string>Waterfall (Electric Mantis Remix)</string>
+			<key>Artist</key><string>Petit Biscuit, Panama</string>
+			<key>Album Artist</key><string>Petit Biscuit, Panama</string>
+			<key>Composer</key><string>Mehdi Benjelloun</string>
+			<key>Album</key><string>Waterfall Remixes</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8638213</integer>
+			<key>Total Time</key><integer>210573</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-12-14T22:50:53Z</date>
+			<key>Date Added</key><date>2018-11-22T23:30:48Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3626451654</integer>
+			<key>Play Date UTC</key><date>2018-12-01T03:40:54Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5235</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D2534317EC4B61E4</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Petit%20Biscuit,%20Panama/Waterfall%20Remixes/01%20Waterfall%20(Electric%20Mantis%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12778</key>
+		<dict>
+			<key>Track ID</key><integer>12778</integer>
+			<key>Name</key><string>Break Up</string>
+			<key>Artist</key><string>Petit Biscuit</string>
+			<key>Album Artist</key><string>Petit Biscuit</string>
+			<key>Composer</key><string>Mehdi Benjelloun</string>
+			<key>Album</key><string>Presence</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10675347</integer>
+			<key>Total Time</key><integer>261616</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-12-14T22:50:53Z</date>
+			<key>Date Added</key><date>2018-11-22T23:30:48Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3626449627</integer>
+			<key>Play Date UTC</key><date>2018-12-01T03:07:07Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>1602</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>66E82897243CAF22</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Petit%20Biscuit/Presence/05%20Break%20Up.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12832</key>
+		<dict>
+			<key>Track ID</key><integer>12832</integer>
+			<key>Name</key><string>SHEKNOWSHEBAD (Grabbitz Remix)</string>
+			<key>Artist</key><string>HeRobust</string>
+			<key>Album Artist</key><string>HeRobust</string>
+			<key>Album</key><string>SMOG City Vol. 3</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8566962</integer>
+			<key>Total Time</key><integer>202187</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>2015</integer>
+			<key>Date Modified</key><date>2019-05-25T01:12:59Z</date>
+			<key>Date Added</key><date>2019-01-05T06:50:11Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3632586644</integer>
+			<key>Play Date UTC</key><date>2019-02-10T03:50:44Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>7082</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4721164FA2B351E8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/HeRobust/SMOG%20City%20Vol.%203/04%20SHEKNOWSHEBAD%20(Grabbitz%20Remix).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>12834</key>
+		<dict>
+			<key>Track ID</key><integer>12834</integer>
+			<key>Name</key><string>The Killer</string>
+			<key>Artist</key><string>Nghtmre, Bret James, RNSOM</string>
+			<key>Album Artist</key><string>Nghtmre, Bret James, RNSOM</string>
+			<key>Composer</key><string>Bret James Loehr, Kentaro Kawamura, Tyler Marenyi</string>
+			<key>Album</key><string>The Killer</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7448114</integer>
+			<key>Total Time</key><integer>181995</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2019-05-25T01:12:59Z</date>
+			<key>Date Added</key><date>2019-01-05T06:50:11Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3632586826</integer>
+			<key>Play Date UTC</key><date>2019-02-10T03:53:46Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>10172</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Killer</string>
+			<key>Sort Name</key><string>Killer</string>
+			<key>Persistent ID</key><string>8A539A7047252FA2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Nghtmre,%20Bret%20James,%20RNSOM/The%20Killer/01%20The%20Killer.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>EDM</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>33702</integer>
+			<key>Playlist Persistent ID</key><string>B59771C167A4504F</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>11338</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11334</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11336</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11332</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11328</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11330</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11326</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11324</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11322</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11320</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11318</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11316</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11314</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11312</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11310</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11238</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11240</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11248</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11140</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11138</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11068</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11072</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11102</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11104</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11106</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11098</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10946</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10758</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10760</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10762</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10764</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10746</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10742</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10740</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10590</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10592</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10588</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10568</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10370</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10362</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10360</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10358</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10366</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10240</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10094</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10054</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10012</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9996</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9140</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8878</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8880</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9322</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10804</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10472</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11148</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11150</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11346</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11348</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10928</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10926</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9998</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9142</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>6996</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8634</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8636</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>7608</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>7206</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11352</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12232</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12230</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12832</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12834</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12778</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12776</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>12110</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11762</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11644</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11358</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
