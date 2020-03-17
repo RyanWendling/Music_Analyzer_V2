@@ -43,7 +43,7 @@ function CalculateAPIResults(apiResponse, importedArtists, resultsMap = new Map(
 // READ IN DEMO LIBRARY
 function readInLibrary() {
   return new Promise(resolve => {
-    fileServer.readFile("./EDM.xml", "utf-8", (err, data) => {
+    fileServer.readFile("./SavedPlaylists/testPlaylist.xml", "utf-8", (err, data) => {
       const jsonSongs = convert.xml2json(data, { compact: false, spaces: 4 });
       const jsonSongsObj = JSON.parse(jsonSongs);
       const dictArray = [];
@@ -80,9 +80,7 @@ async function AnalyzeMusic() {
   const resultsFromCalculateAPIResults = new Map();
   for (let [key, value] of artistsMap) {
     console.log(key + " = " + value);
-    // const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${artistsMap.keys().next().value}&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`);
     const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`);
-    //TODO: add error case where we skip artist / incrementor when response is invalid (the artist wasnt found)
     const anAPIResponseJSON = await anAPIResponse.json();
     if (anAPIResponseJSON.hasOwnProperty("error")) {
       continue;
@@ -91,8 +89,9 @@ async function AnalyzeMusic() {
 
     CalculateAPIResults(anAPIResponseJSON, artistsMap, resultsFromCalculateAPIResults, value);
   }
-  const sortedResults = new Map([...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]));
-  console.log(sortedResults);
+  // const sortedResults = new Map([...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]));
+  const sortedResults = [...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]);
+  console.log(sortedResults.slice(0, 50));
 }
 
 // PROGRAM START
