@@ -9,10 +9,14 @@
   "author": "Ryan Wendling",
   "license": "ISC",
   "dependencies": {
-    "electron": "^7.1.3",
+    "electron": "^7.1.12",
     "express": "^4.17.1",
-    "nightmare": "^3.0.2",
-    "nodemon": "^2.0.1"
+    "images-scraper": "^4.0.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.2",
+    "xml-parse": "^0.4.0",
+    "xml-js": "^1.6.11"
   },
   "nodemonConfig": {
     "restartable": "rs",
