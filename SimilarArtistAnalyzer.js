@@ -5,7 +5,7 @@ const fileServer = require("fs");
 const convert = require("xml-js");
 
 // const xml = require("xml-parse");
-// const ryanModule = require("./myModule.js");
+const myLinkedListClass = require("./LinkedList.js");
 
 function traverse(jsonObj, matchingString, resultingArray) {
   for (var i in jsonObj) {
@@ -39,15 +39,18 @@ async function downloadFile(url, path) {
 
 // TODO: ADD FUNCTIONALITY() TO GET IMAGES VIA DEEZER API. WILL PERFORM CHECK BEFOREHAND TO SEE IF IMAGES EXIST IN IMAGE FOLDER.
 async function DownloadAndCheckArtistArtwork(anArtistName) {
-  if (fileServer.existsSync(`./SavedImages/${anArtistName}250`)) {
+  console.log("inside DownloadAndCheckArtistArtwork");
+  const formattedArtistName = anArtistName.replace(/[' .]/g, "-");
+  const formattedArtistNameNoDups = myLinkedListClass.RemoveDuplicate(formattedArtistName, "-");
+  if (fileServer.existsSync(`./SavedImages/${formattedArtistName}250`)) {
     return true;
   }
   try {
-    const anAPIResponse = await fetch(`https://api.deezer.com/artist/${anArtistName}`);
+    const anAPIResponse = await fetch(`https://api.deezer.com/artist/${encodeURI(formattedArtistNameNoDups)}`);
     const anAPIResponseJSON = await anAPIResponse.json();
-    const downloadFileResponse = downloadFile(anAPIResponseJSON.picture_medium, `./SavedImages/${anArtistName}250.jpg`);
+    const downloadFileResponse = await downloadFile(anAPIResponseJSON.picture_medium, `./SavedImages/${formattedArtistNameNoDups}250.jpg`);
   } catch (e) {
-    console.log(`${e} error downloading image`);
+    console.log(`exception:${e}.  Info:Error downloading image`);
     return false;
   }
   return true;
@@ -57,17 +60,22 @@ async function DownloadAndCheckArtistArtwork(anArtistName) {
 // If new artist doesn't exist within importedArtists map, artistname and similarity rating will then be added to resultsMap. resultsMap will be used after API calls are complete for additional calculations.
 async function CalculateAPIResults(apiResponse, importedArtists, resultsMap = new Map(), multiplier) {
   console.log("in calculateAPIResults");
-  apiResponse.similarartists.artist.forEach(async curArtist => {
-    // console.log(curArtist.name);
+  //apiResponse.similarartists.artist.forEach(async curArtist => {
+
+  const promises = apiResponse.similarartists.artist.map(async curArtist => {
     if (!importedArtists.has(curArtist.name.toLowerCase())) {
       if (!resultsMap.has(curArtist.name)) {
         const artworkExists = await DownloadAndCheckArtistArtwork(curArtist.name);
+        //const artworkExists = await DownloadAndCheckArtistArtwork("foals");
         resultsMap.set(curArtist.name, parseFloat(curArtist.match) * multiplier);
       } else {
         resultsMap.set(curArtist.name, resultsMap.get(curArtist.name) + parseFloat(curArtist.match) * multiplier);
       }
     }
+    //});
   });
+  await Promise.all(promises);
+  console.log("finished");
   return resultsMap;
 }
 
@@ -81,9 +89,9 @@ function readInLibrary() {
       traverse(jsonSongsObj, "dict", dictArray);
       const jsonArtistValueMap = new Map();
 
-      for (let k = 2; k < dictArray.length; k++) {
+      for (let k = 2; k < dictArray.length; k += 1) {
         const jsonCurrentSongDict = dictArray[k];
-        for (let i = 0; i < jsonCurrentSongDict.elements.length; i++) {
+        for (let i = 0; i < jsonCurrentSongDict.elements.length; i += 1) {
           if (jsonCurrentSongDict.elements[i].hasOwnProperty("elements")) {
             const textualValueForCurrentNestedElement = jsonCurrentSongDict.elements[i].elements[0].text;
             if (textualValueForCurrentNestedElement == "Artist") {
@@ -110,16 +118,19 @@ async function AnalyzeMusic() {
   const artistsMap = await readInLibrary();
   const resultsFromCalculateAPIResults = new Map();
   // ASGFAWGTAERGAEWGE
-  const resultttt = await DownloadAndCheckArtistArtwork("Gorillaz");
+  //const resultttt = await DownloadAndCheckArtistArtwork("Gorillaz");
+
   for (let [key, value] of artistsMap) {
     console.log(key + " = " + value);
-    const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`);
+    const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json&limit=3`);
     const anAPIResponseJSON = await anAPIResponse.json();
     if (anAPIResponseJSON.hasOwnProperty("error")) {
+      console.log("artist wasnt found in LastFM API");
       continue;
     }
+    console.log("done fetching initial lastfm data for 1 artist");
     //console.log(anAPIResponseJSON);
-    CalculateAPIResults(anAPIResponseJSON, artistsMap, resultsFromCalculateAPIResults, value);
+    const promise = await CalculateAPIResults(anAPIResponseJSON, artistsMap, resultsFromCalculateAPIResults, value);
   }
   // const sortedResults = new Map([...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]));
   const sortedResults = [...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]);
