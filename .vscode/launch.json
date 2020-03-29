@@ -35,7 +35,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch backend code / Program",
-      "program": "${workspaceFolder}/imgscrapertest.js"
+      "program": "${workspaceFolder}/app.js"
     },
     {
       "type": "node",

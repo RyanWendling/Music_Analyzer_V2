@@ -1,10 +1,8 @@
 // IMPORTS
 const fetch = require("node-fetch");
-const httpObj = require("http");
+// const httpObj = require("http");
 const fileServer = require("fs");
 const convert = require("xml-js");
-
-// const xml = require("xml-parse");
 const myLinkedListClass = require("./LinkedList.js");
 
 function traverse(jsonObj, matchingString, resultingArray) {
@@ -17,10 +15,6 @@ function traverse(jsonObj, matchingString, resultingArray) {
       traverse(jsonObj[i], matchingString, resultingArray);
     }
   }
-}
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 async function downloadFile(url, path) {
@@ -37,7 +31,7 @@ async function downloadFile(url, path) {
   });
 }
 
-// TODO: ADD FUNCTIONALITY() TO GET IMAGES VIA DEEZER API. WILL PERFORM CHECK BEFOREHAND TO SEE IF IMAGES EXIST IN IMAGE FOLDER.
+// Will check if similar artist artwork already exists in local storage. Will download artwork if artwork doesn't exist via Deezer API.
 async function DownloadAndCheckArtistArtwork(anArtistName) {
   console.log("inside DownloadAndCheckArtistArtwork");
   const formattedArtistName = anArtistName.replace(/[' .]/g, "-");
@@ -50,7 +44,7 @@ async function DownloadAndCheckArtistArtwork(anArtistName) {
     const anAPIResponseJSON = await anAPIResponse.json();
     const downloadFileResponse = await downloadFile(anAPIResponseJSON.picture_medium, `./SavedImages/${formattedArtistNameNoDups}250.jpg`);
   } catch (e) {
-    console.log(`exception:${e}.  Info:Error downloading image`);
+    console.log(`exception:${e}.  INFO:Error downloading image`);
     return false;
   }
   return true;
@@ -60,19 +54,17 @@ async function DownloadAndCheckArtistArtwork(anArtistName) {
 // If new artist doesn't exist within importedArtists map, artistname and similarity rating will then be added to resultsMap. resultsMap will be used after API calls are complete for additional calculations.
 async function CalculateAPIResults(apiResponse, importedArtists, resultsMap = new Map(), multiplier) {
   console.log("in calculateAPIResults");
-  //apiResponse.similarartists.artist.forEach(async curArtist => {
 
   const promises = apiResponse.similarartists.artist.map(async curArtist => {
     if (!importedArtists.has(curArtist.name.toLowerCase())) {
       if (!resultsMap.has(curArtist.name)) {
         const artworkExists = await DownloadAndCheckArtistArtwork(curArtist.name);
-        //const artworkExists = await DownloadAndCheckArtistArtwork("foals");
+        // const artworkExists = await DownloadAndCheckArtistArtwork("foals");
         resultsMap.set(curArtist.name, parseFloat(curArtist.match) * multiplier);
       } else {
         resultsMap.set(curArtist.name, resultsMap.get(curArtist.name) + parseFloat(curArtist.match) * multiplier);
       }
     }
-    //});
   });
   await Promise.all(promises);
   console.log("finished");
@@ -105,20 +97,16 @@ function readInLibrary() {
           }
         }
       }
-      // sleep(10000).then(() => {
-      //  console.log("World!");
       resolve(jsonArtistValueMap);
-      // });
     });
   });
 }
 
 // MAIN FUNCTION FOR THIS MODULE -------------------------------------------------------------------------------------------------------------------------
+// Read in a specify xml itunes library file and output similar artists.
 async function AnalyzeMusic() {
   const artistsMap = await readInLibrary();
   const resultsFromCalculateAPIResults = new Map();
-  // ASGFAWGTAERGAEWGE
-  //const resultttt = await DownloadAndCheckArtistArtwork("Gorillaz");
 
   for (let [key, value] of artistsMap) {
     console.log(key + " = " + value);
@@ -129,14 +117,14 @@ async function AnalyzeMusic() {
       continue;
     }
     console.log("done fetching initial lastfm data for 1 artist");
-    //console.log(anAPIResponseJSON);
     const promise = await CalculateAPIResults(anAPIResponseJSON, artistsMap, resultsFromCalculateAPIResults, value);
   }
   // const sortedResults = new Map([...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]));
   const sortedResults = [...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]);
   console.log(sortedResults.slice(0, 50));
+  return sortedResults.slice(0, 50);
 }
-
+/*
 // PROGRAM START
 const appWebServerObj = httpObj.createServer();
 
@@ -151,8 +139,8 @@ appWebServerObj
 
 AnalyzeMusic();
 
-// TEST MODULE IMPORT
-// console.log(ryanModule.myText);
-
 console.log("close server");
 appWebServerObj.close();
+*/
+
+exports.AnalyzeMusic = AnalyzeMusic;
