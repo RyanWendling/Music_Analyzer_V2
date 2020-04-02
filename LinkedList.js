@@ -1,4 +1,3 @@
-//Linked List and duplicateCharNextToEachOther class
 class LinkedListNode {
   constructor(data) {
     this.data = data;
@@ -16,7 +15,7 @@ function RemoveDuplicate(S, aChar) {
   }
   const curLetter = S.charAt(0);
   const head = new LinkedListNode(curLetter);
-  let finishedStringNoDuplicates = [];
+  const finishedStringNoDuplicates = [];
 
   let current = head;
 
