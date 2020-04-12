@@ -1,4 +1,4 @@
-const uls = document.getElementsByTagName("ul");
+/*const uls = document.getElementsByTagName("ul");
 const listItems = document.getElementsByTagName("li");
 
 for (let i = 0; i < listItems.length; i++) {
@@ -18,4 +18,4 @@ for (let i = 0; i < listItems.length; i++) {
   holdingBox.appendChild(artistText);
 
   listItems[i].appendChild(holdingBox);
-}
+} */

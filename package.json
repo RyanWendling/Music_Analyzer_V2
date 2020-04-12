@@ -30,6 +30,9 @@
       "PORT": 4000
     }
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2"
+  },
   "description": ""
 }

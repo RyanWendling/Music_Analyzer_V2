@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title><%=maTitle%></title>
+    <meta name="description" content="MusicMatch: recommended artists based off your personal library." />
+    <meta name="author" content="Ryan Wendling" />
+    <link rel="stylesheet" type="text/css" href="/Css/reset.css" />
+    <link rel="stylesheet" href="/Css/styles2.css" />
+  </head>
+
+  <body>
+    <nav class="flexxContainer">
+      <ul>
+        <li>
+          <div class="iconName">MusicMatch</div>
+        </li>
+      </ul>
+      <ul>
+        <% for(let i = 0; i < nav.length; i++) {%>
+        <li>
+          <a href="<%=nav[i].link%>"> <%=nav[i].title%> </a>
+        </li>
+        <%}%>
+      </ul>
+    </nav>
+    <h1>An Artist Details View</h1>
+    <% if (passedInArtist != undefined) {%>
+    <h3><%=passedInArtist.name%></h3>
+    <h3><%=passedInArtist.similarityScore%></h3>
+    <h3><%=passedInArtist.url%></h3>
+    <%}%>
+  </body>
+
+  <script src="/Js/scripts.js"></script>
+</html>
