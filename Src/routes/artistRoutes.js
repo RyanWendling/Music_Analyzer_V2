@@ -1,41 +1,37 @@
 const express = require("express");
 const artistRouter = express.Router();
+const artistController = require("../controllers/ArtistController");
 
 function router(nav) {
+  const { GetAllArtists, GetAdditionalInfo } = artistController(nav);
   const passedInArtists = [
     {
       name: "Kasabian",
       similarityScore: 0.55,
-      url: "https//example.com"
+      url: "https//example.com",
     },
     {
       name: "Beck",
       similarityScore: 0.45,
-      url: "https//example.com"
+      url: "https//example.com",
     },
     {
       name: "Black Keys",
       similarityScore: 0.72,
-      url: "https//example.com"
-    }
+      url: "https//example.com",
+    },
   ];
 
+  // Get all artists
   artistRouter.route("/").get((request, response) => {
-    response.render("ArtistResultsView", {
-      nav,
-      maTitle: "MaLibrarah",
-      passedInArtists
-    });
+    GetAllArtists(request, response, passedInArtists);
   });
 
+  // Show additional info about an artist after all artists have been loaded in.
   artistRouter.route("/:id").get((request, response) => {
-    const { id } = request.params;
-    response.render("ArtistDetailsView", {
-      nav,
-      maTitle: "MaLibrarah",
-      passedInArtist: passedInArtists.find(x => x.name === id)
-    });
+    GetAdditionalInfo(request, response, passedInArtists);
   });
+
   return artistRouter;
 }
 
