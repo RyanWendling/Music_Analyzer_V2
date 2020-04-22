@@ -1,10 +1,11 @@
 const express = require("express");
 const artistRouter = express.Router();
 const artistController = require("../controllers/ArtistController");
+const artistAnalyzerService = require("../services/SimilarArtistAnalyzer");
 
 function router(nav) {
-  const { GetAllArtists, GetAdditionalInfo } = artistController(nav);
-  const passedInArtists = [
+  const { GetAllArtists, GetAdditionalInfo } = artistController(artistAnalyzerService, nav);
+  let passedInArtists = [
     {
       name: "Kasabian",
       similarityScore: 0.55,
@@ -27,6 +28,7 @@ function router(nav) {
     GetAllArtists(request, response, passedInArtists);
   });
 
+  // TODO: make passedInArtists Data from above call CACHED!
   // Show additional info about an artist after all artists have been loaded in.
   artistRouter.route("/:id").get((request, response) => {
     GetAdditionalInfo(request, response, passedInArtists);

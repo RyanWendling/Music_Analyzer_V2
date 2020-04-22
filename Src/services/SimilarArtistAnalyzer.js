@@ -22,7 +22,7 @@ async function downloadFile(url, path) {
   const fileStream = fileServer.createWriteStream(path);
   await new Promise((resolve, reject) => {
     res.body.pipe(fileStream);
-    res.body.on("error", err => {
+    res.body.on("error", (err) => {
       reject(err);
     });
     fileStream.on("finish", function() {
@@ -36,13 +36,14 @@ async function DownloadAndCheckArtistArtwork(anArtistName) {
   console.log("inside DownloadAndCheckArtistArtwork");
   const formattedArtistName = anArtistName.replace(/[' .]/g, "-");
   const formattedArtistNameNoDups = myLinkedListClass.RemoveDuplicate(formattedArtistName, "-");
-  if (fileServer.existsSync(`./SavedImages/${formattedArtistName}250`)) {
+  if (fileServer.existsSync(`./Public/SavedImages/${formattedArtistNameNoDups}250`)) {
     return true;
   }
   try {
     const anAPIResponse = await fetch(`https://api.deezer.com/artist/${encodeURI(formattedArtistNameNoDups)}`);
     const anAPIResponseJSON = await anAPIResponse.json();
-    const downloadFileResponse = await downloadFile(anAPIResponseJSON.picture_medium, `./SavedImages/${formattedArtistNameNoDups}250.jpg`);
+    //const downloadFileResponse = await downloadFile(anAPIResponseJSON.picture_medium, `./SavedImages/${formattedArtistNameNoDups}250.jpg`);
+    const downloadFileResponse = await downloadFile(anAPIResponseJSON.picture_medium, `./Public/SavedImages/${anArtistName}250.jpg`);
   } catch (e) {
     console.log(`exception:${e}.  INFO:Error downloading image`);
     return false;
@@ -55,7 +56,7 @@ async function DownloadAndCheckArtistArtwork(anArtistName) {
 async function CalculateAPIResults(apiResponse, importedArtists, resultsMap = new Map(), multiplier) {
   console.log("in calculateAPIResults");
 
-  const promises = apiResponse.similarartists.artist.map(async curArtist => {
+  const promises = apiResponse.similarartists.artist.map(async (curArtist) => {
     if (!importedArtists.has(curArtist.name.toLowerCase())) {
       if (!resultsMap.has(curArtist.name)) {
         const artworkExists = await DownloadAndCheckArtistArtwork(curArtist.name);
@@ -73,8 +74,8 @@ async function CalculateAPIResults(apiResponse, importedArtists, resultsMap = ne
 
 // READ IN DEMO LIBRARY
 function readInLibrary() {
-  return new Promise(resolve => {
-    fileServer.readFile("./SavedPlaylists/testPlaylist.xml", "utf-8", (err, data) => {
+  return new Promise((resolve) => {
+    fileServer.readFile("./Public/SavedPlaylists/testPlaylist.xml", "utf-8", (err, data) => {
       const jsonSongs = convert.xml2json(data, { compact: false, spaces: 4 });
       const jsonSongsObj = JSON.parse(jsonSongs);
       const dictArray = [];
@@ -124,23 +125,5 @@ async function AnalyzeMusic() {
   console.log(sortedResults.slice(0, 50));
   return sortedResults.slice(0, 50);
 }
-/*
-// PROGRAM START
-const appWebServerObj = httpObj.createServer();
-
-// SERVER SETUP TEST
-appWebServerObj
-  .on("request", (request, response) => {
-    response.writeHead(200, { "Content-Type": "text/plain" });
-    response.write("Hello World");
-    response.end();
-  })
-  .listen(3001);
-
-AnalyzeMusic();
-
-console.log("close server");
-appWebServerObj.close();
-*/
 
 exports.AnalyzeMusic = AnalyzeMusic;

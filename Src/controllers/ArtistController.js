@@ -1,11 +1,15 @@
-function ArtistController(nav) {
+function ArtistController(artistAnalyzerService, nav) {
   // Get all artists
   function GetAllArtists(request, response, passedInArtists) {
-    response.render("ArtistResultsView", {
-      nav,
-      maTitle: "MaLibrarah",
-      passedInArtists,
-    });
+    (async () => {
+      passedInArtists = await artistAnalyzerService.AnalyzeMusic();
+      response.render("ArtistResultsView", {
+        nav,
+        maTitle: "MaLibrarah",
+        passedInArtists,
+        formatArtistNameHandler: "formatArtistNameForAlbumArt();",
+      });
+    })();
   }
 
   // Show additional info about an artist after all artists have been loaded in.
@@ -15,6 +19,7 @@ function ArtistController(nav) {
       nav,
       maTitle: "MaLibrarah",
       passedInArtist: passedInArtists.find((x) => x.name === id),
+      //passedInArtistFormatted: passedInArtist.replace(/[' .]/g, "-").then(myLinkedListClass.RemoveDuplicate(passedInArtist, "-")),
     });
   }
   return {
