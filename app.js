@@ -14,15 +14,6 @@ const myArtistRouter = require("./Src/routes/artistRoutes")(nav);
 
 //myArtistRouter will be used for the "/" path, as well as all child paths.
 app.use("/", myArtistRouter);
-/*app.get("/", async (request, response) => {
-  // render will generate the index file by looking within Src / Views and pass in any declared data.
-  response.render("ArtistResultsView", {
-    nav: [{ link: "/", title: "Main Page" }, { link: "/ArtistDetailsView", title: "Artist Details" }],
-    maTitle: "MaLibrarah",
-    passedInArtists
-  });
-  // response.send(await myAnalyzer.AnalyzeMusic());
-});*/
 
 app.listen(port, () => {
   console.log(`Running on port ${port}`);

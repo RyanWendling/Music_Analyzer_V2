@@ -104,7 +104,7 @@ function readInLibrary() {
 }
 
 // MAIN FUNCTION FOR THIS MODULE -------------------------------------------------------------------------------------------------------------------------
-// Read in a specify xml itunes library file and output similar artists.
+// Read in a specified xml itunes library file and output similar artists.
 async function AnalyzeMusic() {
   const artistsMap = await readInLibrary();
   const resultsFromCalculateAPIResults = new Map();

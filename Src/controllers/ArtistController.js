@@ -19,7 +19,6 @@ function ArtistController(artistAnalyzerService, nav) {
       nav,
       maTitle: "MaLibrarah",
       passedInArtist: passedInArtists.find((x) => x.name === id),
-      //passedInArtistFormatted: passedInArtist.replace(/[' .]/g, "-").then(myLinkedListClass.RemoveDuplicate(passedInArtist, "-")),
     });
   }
   return {
