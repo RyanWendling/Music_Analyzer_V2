@@ -26,12 +26,18 @@
         <%}%>
       </ul>
     </nav>
-    <h1>An Artist Details View</h1>
-    <% if (passedInArtist != undefined) {%>
-    <h3><%=passedInArtist[0]%></h3>
-    <h3><%=passedInArtist[1]%></h3>
-    <img alt="" src="../SavedImages/<%=passedInArtist[0]%>250.jpg" />
-    <%}%>
+
+    <h1>Main View</h1>
+
+    <form method="POST" action="/ArtistResultsView" enctype="multipart/form-data">
+      <div>
+        <label>Select your itunes playlist XML file:</label>
+        <input type="file" name="playlist_xml" />
+      </div>
+      <div>
+        <input type="submit" name="btn_upload_playlist_xml" value="Upload" />
+      </div>
+    </form>
   </body>
 
   <script src="/Js/scripts.js"></script>

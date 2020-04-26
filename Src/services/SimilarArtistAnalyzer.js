@@ -73,9 +73,10 @@ async function CalculateAPIResults(apiResponse, importedArtists, resultsMap = ne
 }
 
 // READ IN DEMO LIBRARY
-function readInLibrary() {
+function readInLibrary(XMLPlaylistFile) {
   return new Promise((resolve) => {
-    fileServer.readFile("./Public/SavedPlaylists/testPlaylist.xml", "utf-8", (err, data) => {
+    //fileServer.readFile("./Public/SavedPlaylists/testPlaylist.xml", "utf-8", (err, data) => {
+    fileServer.readFile(XMLPlaylistFile.path, "utf-8", (err, data) => {
       const jsonSongs = convert.xml2json(data, { compact: false, spaces: 4 });
       const jsonSongsObj = JSON.parse(jsonSongs);
       const dictArray = [];
@@ -105,8 +106,8 @@ function readInLibrary() {
 
 // MAIN FUNCTION FOR THIS MODULE -------------------------------------------------------------------------------------------------------------------------
 // Read in a specified xml itunes library file and output similar artists.
-async function AnalyzeMusic() {
-  const artistsMap = await readInLibrary();
+async function AnalyzeMusic(XMLPlaylistFile) {
+  const artistsMap = await readInLibrary(XMLPlaylistFile);
   const resultsFromCalculateAPIResults = new Map();
 
   for (let [key, value] of artistsMap) {
