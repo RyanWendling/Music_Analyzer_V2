@@ -28,13 +28,16 @@
     </nav>
 
     <h1>Main View</h1>
-
-    <% for(let i = 0; i < passedInArtists.length; i++) {%>
-    <h3><%=passedInArtists[i][0]%></h3>
-    <h3><%=passedInArtists[i][1]%></h3>
-    <img alt="" src="../SavedImages/<%=passedInArtists[i][0]%>250.jpg">
-    <br></br>
-    <%}%>
+    <div class="grid-container">
+      <% for(let i = 0; i < passedInArtists.length; i++) {%>
+      <div class="grid-item">
+        <div class="music-info">
+          <h3><%=passedInArtists[i][0]%></h3>
+          <img alt="" src="../SavedImages/<%=passedInArtists[i][0]%>250.jpg" class="grid-img" />
+        </div>
+      </div>
+      <%}%>
+    </div>
   </body>
 
   <script src="/Js/scripts.js"></script>

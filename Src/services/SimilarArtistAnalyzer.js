@@ -112,7 +112,7 @@ async function AnalyzeMusic(XMLPlaylistFile) {
 
   for (let [key, value] of artistsMap) {
     console.log(key + " = " + value);
-    const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json&limit=3`);
+    const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json&limit=5`);
     const anAPIResponseJSON = await anAPIResponse.json();
     if (anAPIResponseJSON.hasOwnProperty("error")) {
       console.log("artist wasnt found in LastFM API");

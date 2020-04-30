@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
 
+/*Nav bar*/
 ul {
   list-style-type: none;
   padding: 0.5rem;
@@ -41,4 +42,29 @@ a:hover {
   align-items: center;
   padding: 0.1rem 7%;
   background-color: grey;
+}
+
+/*Artist Grid Results */
+
+.grid-item {
+  background-color: dodgerblue;
+  color: white;
+  object-fit: cover; /* will clip off edges of image to fit parent container */
+  width: 100%;
+  max-height: 100%;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  max-width: 1800px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.music-info {
 }
