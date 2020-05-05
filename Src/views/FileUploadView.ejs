@@ -27,17 +27,14 @@
       </ul>
     </nav>
 
-    <h1>Main View</h1>
-
-    <form method="POST" action="/ArtistResultsView" enctype="multipart/form-data">
-      <div>
+    <div class="centr">
+      <form method="POST" action="/ArtistResultsView" enctype="multipart/form-data">
         <label>Select your itunes playlist XML file:</label>
-        <input type="file" name="playlist_xml" />
-      </div>
-      <div>
-        <input type="submit" name="btn_upload_playlist_xml" value="Upload" />
-      </div>
-    </form>
+        <input id="browse" type="file" name="playlist_xml" />
+        <br></br>
+        <input class="ph-button ph-btn-blue" type="submit" name="btn_upload_playlist_xml" value="Upload" />
+      </form>
+    </div>
   </body>
 
   <script src="/Js/scripts.js"></script>

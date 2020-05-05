@@ -27,14 +27,14 @@
       </ul>
     </nav>
 
-    <h1>Main View</h1>
+    <br></br>
     <div class="grid-container">
       <% for(let i = 0; i < passedInArtists.length; i++) {%>
       <div class="grid-item">
-        <div class="music-info">
+        <a class="music-info" href="/<%=passedInArtists[i][0]%>">
           <h3><%=passedInArtists[i][0]%></h3>
           <img alt="" src="../SavedImages/<%=passedInArtists[i][0]%>250.jpg" class="grid-img" />
-        </div>
+        </a>
       </div>
       <%}%>
     </div>
