@@ -14,11 +14,12 @@ function ArtistController(artistAnalyzerService, nav) {
     (async () => {
       let passedInArtists = await artistAnalyzerService.AnalyzeMusic(request.file);
       request.session.resultingArtists = passedInArtists;
-      response.render("ArtistResultsView", {
+      response.redirect("/ArtistResultsView");
+      /*response.render("ArtistResultsView", {
         nav,
         maTitle: "Artist Results",
         passedInArtists,
-      });
+      });*/
     })();
   }
 

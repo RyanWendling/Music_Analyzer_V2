@@ -50,7 +50,7 @@ ul li a:hover {
 
 /*ArtistResultsView - Artist Grid Results */
 .grid-item {
-  background-color: #e5e5e5;
+  background-color: #eeeeee;
   color: white;
   object-fit: cover; /* will clip off edges of image to fit parent container */
   width: 100%;
