@@ -1,7 +1,29 @@
 const express = require("express");
 const artistRouter = express.Router();
+const path = require("path");
 const myMulter = require("multer");
-var upload = myMulter({ dest: "/uploads" });
+var upload = myMulter({
+  dest: "/uploads",
+  fileFilter: function(req, file, cb) {
+    checkFileType(file, cb);
+  },
+}).single("playlist_xml");
+
+// Check File Type
+function checkFileType(file, cb) {
+  // Allowed ext
+  const filetypes = /xml/;
+  // Check ext
+  const extname = filetypes.test(path.extname(file.originalname).toLowerCase());
+  // Check mime
+  const mimetype = filetypes.test(file.mimetype);
+
+  if (mimetype && extname) {
+    return cb(null, true);
+  } else {
+    cb(new Error("Only XML files are allowed."));
+  }
+}
 const artistController = require("../controllers/ArtistController");
 const artistAnalyzerService = require("../services/SimilarArtistAnalyzer");
 
@@ -14,8 +36,16 @@ function router(nav) {
     GetUploadForm(request, response);
   });
 
-  artistRouter.route("/ArtistResultsView").post(upload.single("playlist_xml"), (request, response, next) => {
-    PostFormAndGenerateAllArtists(request, response, passedInArtists);
+  // Calculate uploaded XML file and load main page with results.
+  artistRouter.route("/ArtistResultsView").post((request, response, next) => {
+    upload(request, response, (err) => {
+      if (err) return response.status(500).send({ success: false, message: "File is not valid XML." });
+      const file = request.file;
+      if (!file) {
+        return response.status(500).send({ success: false, message: "Please upload a file." });
+      }
+      PostFormAndGenerateAllArtists(request, response, passedInArtists);
+    });
   });
 
   // Get all artists
