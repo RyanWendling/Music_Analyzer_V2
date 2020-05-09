@@ -28,12 +28,17 @@
     </nav>
 
     <div class="centr">
-      <form method="POST" action="/ArtistResultsView" enctype="multipart/form-data">
-        <label>Select your itunes playlist XML file:</label>
-        <input id="browse" type="file" name="playlist_xml" />
-        <br></br>
-        <input class="ph-button ph-btn-blue" type="submit" name="btn_upload_playlist_xml" value="Upload" />
-      </form>
+      <p id="welcome">Hello, and welcome to my MusicMatch application! To begin, simply highlight the desired playlist from the lefthand navbar of your Itunes application. From there, go to File > Library > Export Playlist... From there, save the playlist as an XML file, and load it into the MusicMatch application!</p>
+      <div id="backgroundblock">
+        <form method="POST" action="/ArtistResultsView" enctype="multipart/form-data">
+          <label>Select your itunes playlist XML file:</label>
+          <br></br>
+          <input id="browse" type="file" name="playlist_xml" />
+          <br></br>
+          <br></br>
+          <input class="ph-button ph-btn-blue" type="submit" name="btn_upload_playlist_xml" value="Upload" />
+        </form>
+      </div>
     </div>
   </body>
 

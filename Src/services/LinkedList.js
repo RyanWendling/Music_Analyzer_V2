@@ -26,7 +26,7 @@ function RemoveDuplicate(S, aChar) {
 
   current = head;
   while (current !== null) {
-    console.log(`cur ${current.data}`);
+    //console.log(`cur ${current.data}`);
     if (current.next != null && current.next.data === current.data && current.data === aChar) {
       console.log(`match ${current.data} ${current.next.data}`);
       const tempNext = current.next;

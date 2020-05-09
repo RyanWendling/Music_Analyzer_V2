@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap");
 /*Shared - Nav bar*/
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Baloo Da 2", cursive;
 }
 
 ul {
@@ -16,27 +16,28 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  font-weight: bold;
-  color: black;
-  font-size: 1.2rem;
+  font-family: "Orbitron", Arial, Helvetica, sans-serif;
+  color: rgb(17, 17, 17);
+  font-size: 1.1rem;
   padding: 10px 15px;
   transition: all 0.3s ease 0s;
 }
 
 ul li a:hover {
-  background-color: white;
+  background-color: #eeeeee;
 }
 
 .iconName {
   text-decoration: none;
   border-style: dotted;
-  color: black;
-  font-size: 1.2rem;
+  color: rgb(17, 17, 17);
+  font-size: 1.3rem;
   display: inline-block;
   padding: 1rem 1.5rem;
   border-width: 0.3rem;
-  border-color: black;
+  border-color: rgb(17, 17, 17);
   border-style: solid;
+  background-color: #eeeeee;
   font-family: "Orbitron", Arial, Helvetica, sans-serif;
 }
 
@@ -78,6 +79,17 @@ ul li a:hover {
   border-radius: 70px;
 }
 
+.music-info:hover {
+  transition: all 0.4s;
+  color: #6a9ae2;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px #6a9ae2;
+  -moz-box-shadow: 0px 0px 30px 0px #6a9ae2;
+  box-shadow: 0px 0px 30px 0px #6a9ae2;
+}
+
 img {
   border-radius: 30px;
 }
@@ -86,7 +98,7 @@ img {
 .centr {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 30%;
   right: 0;
   left: 0;
 }
@@ -95,7 +107,7 @@ img {
   border-style: solid;
   border-width: 0px 0px 3px;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  color: #ffffff;
+  color: #eeeeee;
   border-radius: 6px;
   cursor: pointer;
   display: inline-block;
@@ -122,4 +134,22 @@ img {
 .ph-btn-blue:active {
   background-color: #2d4261;
   border-color: #326e99;
+}
+
+#browse {
+  text-align: center;
+  margin: auto;
+}
+
+#welcome {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#backgroundblock {
+  display: inline-block;
+  background-color: #eeeeee;
+  padding: 20px;
 }
