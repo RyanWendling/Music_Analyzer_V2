@@ -6,108 +6,103 @@ body {
   font-family: "Baloo Da 2", cursive;
 }
 /*mobile view*/
-ul {
-  list-style-type: none;
-  padding: 0.3rem;
+.navbar {
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #2e2e2e 0%, #6a9ae2 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
 }
 
-ul li {
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.main-nav li {
   text-align: center;
   margin: 15px auto;
 }
 
-ul li a {
-  text-decoration: none;
-  font-family: "Orbitron", Arial, Helvetica, sans-serif;
-  color: rgb(17, 17, 17);
-  font-size: 1.1rem;
-  padding: 10px 15px;
-  transition: all 0.3s ease 0s;
-}
-
-ul li a:hover {
-  background-color: #eeeeee;
-}
-
-.iconName {
-  text-decoration: none;
-  border-style: dotted;
-  color: rgb(17, 17, 17);
-  font-size: 1.3rem;
+.logo {
   display: inline-block;
-  padding: 1rem 1.5rem;
+  margin-top: 10px;
+  margin-left: 5%;
+  border-style: dotted;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
   border-width: 0.3rem;
-  border-color: rgb(17, 17, 17);
   border-style: solid;
-  background-color: #eeeeee;
   font-family: "Orbitron", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
 }
 
-.flexxContainer {
-  display: flex;
-  /*evenly spaces out all items of the row*/
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.1rem 7%;
-  background-color: grey;
+.navbar-toggle {
+  position: absolute;
+  top: 0.9rem;
+  right: 2rem;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.navbar-toggle:hover,
+.main-nav li a:hover {
+  transition: all 0.2s ease 0s;
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.active {
+  display: block;
 }
 
 /*Desktop view*/
 @media screen and (min-width: 830px) {
-  ul {
-    list-style-type: none;
-    padding: 0.3rem;
-  }
-
-  ul li {
-    display: inline-block;
-  }
-
-  ul li a {
-    text-decoration: none;
-    font-family: "Orbitron", Arial, Helvetica, sans-serif;
-    color: rgb(17, 17, 17);
-    font-size: 1.1rem;
-    padding: 10px 15px;
-    transition: all 0.3s ease 0s;
-  }
-
-  ul li a:hover {
-    background-color: #eeeeee;
-  }
-
-  .iconName {
-    text-decoration: none;
-    border-style: dotted;
-    color: rgb(17, 17, 17);
-    font-size: 1.3rem;
-    display: inline-block;
-    padding: 1rem 1.5rem;
-    border-width: 0.3rem;
-    border-color: rgb(17, 17, 17);
-    border-style: solid;
-    background-color: #eeeeee;
-    font-family: "Orbitron", Arial, Helvetica, sans-serif;
-  }
-
-  .flexxContainer {
+  .navbar {
     display: flex;
-    /*evenly spaces out all items of the row*/
     justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
     align-items: center;
-    padding: 0.1rem 7%;
-    background-color: grey;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
   }
 }
 /*ArtistResultsView - Artist Grid Results */
 /**/
 .grid-item {
-  background-color: #eeeeee;
+  background-color: #e7e7e7;
   color: white;
   object-fit: cover; /* will clip off edges of image to fit parent container */
   width: 100%;
   max-height: 100%;
-  padding: 5 rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,10 +129,8 @@ ul li a:hover {
   transition: all 0.4s;
   color: #6a9ae2;
   -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 30px 0px #6a9ae2;
-  -moz-box-shadow: 0px 0px 30px 0px #6a9ae2;
   box-shadow: 0px 0px 30px 0px #6a9ae2;
 }
 

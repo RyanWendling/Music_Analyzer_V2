@@ -9,9 +9,25 @@
     <meta name="author" content="Ryan Wendling" />
     <link rel="stylesheet" type="text/css" href="/Css/reset.css" />
     <link rel="stylesheet" href="/Css/styles2.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" />
   </head>
 
   <body>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+      </span>
+      <a href="/" class="logo">MusicMatch</a>
+      <ul class="main-nav" id="js-menu">
+        <% for(let i = 0; i < nav.length; i++) {%>
+          <li>
+            <a class="nav-links" href="<%=nav[i].link%>"> <%=nav[i].title%> </a>
+          </li>
+        <%}%>
+      </ul>
+    </nav>
+
+<!--
     <nav class="flexxContainer">
       <ul>
         <li>
@@ -25,7 +41,8 @@
         </li>
         <%}%>
       </ul>
-    </nav>
+    </nav>-->
+
     <div class="horz-centr">
       <p id="welcome">Hello, and welcome to my MusicMatch application! To begin, simply highlight the desired playlist from the lefthand navbar of your Itunes application. Next, go to File > Library > Export Playlist... From there, save the playlist as an XML file, and load it into the MusicMatch application!</p>
       <div id="backgroundblock">
