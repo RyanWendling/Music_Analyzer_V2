@@ -13,15 +13,18 @@ function ArtistController(artistAnalyzerService, nav) {
   function PostFormAndGenerateAllArtists(request, response) {
     (async () => {
       let passedInArtists = await artistAnalyzerService.AnalyzeMusic(request.file);
+      request.session.resultsPageVisited = {};
       request.session.resultingArtists = passedInArtists;
       response.redirect("/ArtistResultsView");
     })();
   }
 
-  // Get all artists
+  // Get all artists. Unless uploading a new file, this will simply load the cached artists results.
   function GetAllArtists(request, response, passedInArtists) {
     (async () => {
       passedInArtists = request.session.resultingArtists;
+      let curPageVisited = request.query.page;
+      request.session.resultsPageVisited[curPageVisited] = "true";
       response.render("ArtistResultsView", {
         nav,
         maTitle: "Artist Results",

@@ -36,7 +36,7 @@ async function DownloadAndCheckArtistArtwork(anArtistName) {
   console.log("inside DownloadAndCheckArtistArtwork");
   const formattedArtistName = anArtistName.replace(/[' .]/g, "-");
   const formattedArtistNameNoDups = myLinkedListClass.RemoveDuplicate(formattedArtistName, "-");
-  if (fileServer.existsSync(`./Public/SavedImages/${formattedArtistNameNoDups}250`)) {
+  if (fileServer.existsSync(`./Public/SavedImages/${anArtistName}250.jpg`)) {
     return true;
   }
   try {
@@ -112,7 +112,8 @@ async function AnalyzeMusic(XMLPlaylistFile) {
 
   for (let [key, value] of artistsMap) {
     console.log(key + " = " + value);
-    const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json&limit=5`);
+    //const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json&limit=5`);
+    const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`);
     const anAPIResponseJSON = await anAPIResponse.json();
     if (anAPIResponseJSON.hasOwnProperty("error")) {
       console.log("artist wasnt found in LastFM API");
@@ -124,7 +125,8 @@ async function AnalyzeMusic(XMLPlaylistFile) {
   // const sortedResults = new Map([...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]));
   const sortedResults = [...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]);
   console.log(sortedResults.slice(0, 50));
-  return sortedResults.slice(0, 50);
+  //return sortedResults.slice(0, 50);
+  return sortedResults;
 }
 
 exports.AnalyzeMusic = AnalyzeMusic;

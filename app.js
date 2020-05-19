@@ -13,6 +13,7 @@ app.use(
   })
 );
 
+/*
 app.use(function(req, res, next) {
   if (!req.session.resultingArtists) {
     req.session.resultingArtists = {};
@@ -20,9 +21,14 @@ app.use(function(req, res, next) {
   if (!req.session.resultingArtist) {
     req.session.resultingArtist = {};
   }
-
+  // see if user has already a certain results page
+  if (!req.session.resultsPageVisited) {
+    req.session.resultsPageVisited = new Set();
+    req.session.resultsPageVisited.add("3");
+  }
   next();
 });
+*/
 
 // The below path is available to all client requesters. Note that node serves these static files, the client can't directly acces them. You may also add links to external CDNs like bootstrap here.
 app.use(express.static(path.join(__dirname, "/Public")));
