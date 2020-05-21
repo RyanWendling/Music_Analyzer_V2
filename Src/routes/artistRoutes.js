@@ -33,7 +33,7 @@ function router(nav) {
 
   // Get File upload form
   artistRouter.route("/").get((request, response, next) => {
-    if (!request.session.resultingArtists) {
+    /*if (!request.session.resultingArtists) {
       request.session.resultingArtists = {};
     }
     if (!request.session.resultingArtist) {
@@ -42,7 +42,7 @@ function router(nav) {
     // see if user has already a certain results page
     if (!request.session.resultsPageVisited) {
       request.session.resultsPageVisited = {};
-    }
+    }*/
     GetUploadForm(request, response);
   });
 

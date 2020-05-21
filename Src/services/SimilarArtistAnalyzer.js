@@ -59,7 +59,7 @@ async function CalculateAPIResults(apiResponse, importedArtists, resultsMap = ne
   const promises = apiResponse.similarartists.artist.map(async (curArtist) => {
     if (!importedArtists.has(curArtist.name.toLowerCase())) {
       if (!resultsMap.has(curArtist.name)) {
-        const artworkExists = await DownloadAndCheckArtistArtwork(curArtist.name);
+        //const artworkExists = await DownloadAndCheckArtistArtwork(curArtist.name);
         // const artworkExists = await DownloadAndCheckArtistArtwork("foals");
         resultsMap.set(curArtist.name, parseFloat(curArtist.match) * multiplier);
       } else {
@@ -68,8 +68,22 @@ async function CalculateAPIResults(apiResponse, importedArtists, resultsMap = ne
     }
   });
   await Promise.all(promises);
-  console.log("finished");
+  console.log("finished with CalculateAPIResults");
   return resultsMap;
+}
+
+async function DownloadAndCheckMultipleArtistArtwork(SimilarArtistsArray) {
+  console.log("in DownloadAndCheckMultipleArtistArtwork");
+  let failedAlbumCoverDownloads = 0;
+  const promises = SimilarArtistsArray.map(async (curArtist) => {
+    const artworkExists = await DownloadAndCheckArtistArtwork(curArtist[0]);
+    if (!artworkExists) {
+      failedAlbumCoverDownloads++;
+    }
+  });
+  await Promise.all(promises);
+  console.log(`finished with DownloadAndCheckMultipleArtistArtwork. ${failedAlbumCoverDownloads} artist artworks failed to download.`);
+  return;
 }
 
 // READ IN DEMO LIBRARY
@@ -125,8 +139,8 @@ async function AnalyzeMusic(XMLPlaylistFile) {
   // const sortedResults = new Map([...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]));
   const sortedResults = [...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]);
   console.log(sortedResults.slice(0, 50));
-  //return sortedResults.slice(0, 50);
   return sortedResults;
 }
 
 exports.AnalyzeMusic = AnalyzeMusic;
+exports.DownloadAndCheckMultipleArtistArtwork = DownloadAndCheckMultipleArtistArtwork;
