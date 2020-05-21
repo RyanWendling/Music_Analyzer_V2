@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title><%=maTitle%></title>
+    <meta name="description" content="MusicMatch: recommended artists based off your personal library." />
+    <meta name="author" content="Ryan Wendling" />
+    <link rel="stylesheet" type="text/css" href="/Css/reset.css" />
+    <link rel="stylesheet" href="/Css/styles2.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="" class="logo">MusicMatch</a>
+      <ul class="main-nav" id="js-menu">
+        <% for(let i = 0; i < nav.length; i++) {%>
+        <li>
+          <a class="nav-links" href="<%=nav[i].link%>"> <%=nav[i].title%> </a>
+        </li>
+        <%}%>
+      </ul>
+    </nav>
+
+    <h1>An Artist Details View</h1>
+    <% if (passedInArtist != undefined) {%>
+    <h3><%=passedInArtist[0]%></h3>
+    <h3><%=passedInArtist[1]%></h3>
+    <img alt="" src="../SavedImages/<%=passedInArtist[0]%>250.jpg" />
+    <%}%>
+  </body>
+
+  <script src="/Js/scripts.js"></script>
+</html>

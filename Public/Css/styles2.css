@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap");
+/*Shared - Nav bar*/
+/**/
+body {
+  font-family: "Baloo Da 2", cursive;
+}
+/*mobile view*/
+.navbar {
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #2e2e2e 0%, #6a9ae2 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 5%;
+  border-style: dotted;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  border-width: 0.3rem;
+  border-style: solid;
+  font-family: "Orbitron", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 0.9rem;
+  right: 2rem;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.navbar-toggle:hover,
+.main-nav li a:hover {
+  transition: all 0.2s ease 0s;
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.active {
+  display: block;
+}
+
+/*Desktop view*/
+@media screen and (min-width: 830px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+}
+/*ArtistResultsView - Artist Grid Results */
+/**/
+.grid-item {
+  background-color: #e7e7e7;
+  color: white;
+  object-fit: cover; /* will clip off edges of image to fit parent container */
+  width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  max-width: 1800px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.music-info {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 12px solid #2e2e2e;
+  background-color: #2e2e2e;
+  border-radius: 70px;
+}
+
+.music-info:hover {
+  transition: all 0.4s;
+  color: #6a9ae2;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px #6a9ae2;
+  box-shadow: 0px 0px 30px 0px #6a9ae2;
+}
+
+img {
+  border-radius: 30px;
+}
+
+/*FileUploadView */
+/**/
+.horz-centr {
+  text-align: center;
+  margin-top: 20vh;
+  right: 0;
+  left: 0;
+}
+
+.ph-button {
+  border-style: solid;
+  border-width: 0px 0px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  color: #eeeeee;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-style: normal;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 200ms ease-in-out 0s;
+  white-space: nowrap;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  padding: 19px 39px 18px;
+  font-size: 18px;
+}
+
+.ph-btn-blue {
+  border-color: #326e99;
+  background-color: #6a9ae2;
+}
+
+.ph-btn-blue:hover,
+.ph-btn-blue:focus,
+.ph-btn-blue:active {
+  background-color: #2d4261;
+  border-color: #326e99;
+}
+
+#browse {
+  text-align: center;
+  margin: auto;
+}
+
+#welcome {
+  background-color: #eeeeee;
+  padding: 3rem;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#backgroundblock {
+  display: inline-block;
+  background-color: #eeeeee;
+  padding: 3rem;
+}

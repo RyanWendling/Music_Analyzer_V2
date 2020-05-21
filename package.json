@@ -9,14 +9,18 @@
   "author": "Ryan Wendling",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.0.2",
     "electron": "^7.1.12",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "images-scraper": "^4.0.0",
+    "multer": "^1.4.2",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.2",
     "request": "^2.88.2",
-    "xml-parse": "^0.4.0",
-    "xml-js": "^1.6.11"
+    "serve-favicon": "^2.5.0",
+    "xml-js": "^1.6.11",
+    "xml-parse": "^0.4.0"
   },
   "nodemonConfig": {
     "restartable": "rs",
@@ -29,6 +33,9 @@
       "PORT": 4000
     }
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2"
+  },
   "description": ""
 }
