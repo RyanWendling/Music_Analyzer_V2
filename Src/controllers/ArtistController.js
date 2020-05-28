@@ -19,7 +19,7 @@ function ArtistController(artistAnalyzerService, nav) {
     })();
   }
 
-  // Get all artists. Unless uploading a new file, this will simply load the cached artists results.
+  // Get all artists. Unless uploading a new file, this will simply load the cached artists results. Includes logic to return artists 50 at a time, and to calculate album artwork, if program hasn't already done so (page isn't yet visited).
   function GetAllArtists(request, response, passedInArtists = []) {
     (async () => {
       let curPageVisited = request.query.page;
@@ -31,11 +31,10 @@ function ArtistController(artistAnalyzerService, nav) {
       if (!Array.isArray(request.session.resultingArtists)) {
         request.session.resultingArtists = [];
       }
-      //if (request.session.resultingArtists != undefined && request.session.resultingArtists != null) {
+
       let lowerRange = curPageVisited * 50;
       let upperRange = (curPageVisited + 1) * 50;
       passedInArtists = request.session.resultingArtists.slice(lowerRange, upperRange);
-      //}
 
       if (request.session.resultsPageVisited[curPageVisited] != "true") {
         // Download artist artwork, 50 artists(one page) at a time

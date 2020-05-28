@@ -46,9 +46,13 @@ body {
   font-size: 24px;
 }
 
+.navbar-toggle,
+.main-nav li a {
+  transition: all 0.2s ease 0s;
+}
+
 .navbar-toggle:hover,
 .main-nav li a:hover {
-  transition: all 0.2s ease 0s;
   text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
   color: rgba(255, 255, 255, 1);
 }
@@ -123,10 +127,10 @@ body {
   border: 12px solid #2e2e2e;
   background-color: #2e2e2e;
   border-radius: 70px;
+  transition: all 0.4s;
 }
 
 .music-info:hover {
-  transition: all 0.4s;
   color: #6a9ae2;
   -webkit-border-radius: 10px;
   border-radius: 10px;
@@ -196,4 +200,16 @@ img {
   display: inline-block;
   background-color: #eeeeee;
   padding: 3rem;
+}
+
+.nextAndPrevButtons {
+  color: #2e2e2e;
+  text-decoration: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+#nextAndPrevFlexBox {
+  display: flex;
+  justify-content: space-between;
 }
