@@ -39,11 +39,12 @@
       <%}%>
     </div>
 
-
+    <% if (Object.keys(passedInArtists).length > 0) {%>
     <div id="nextAndPrevFlexBox">
       <i id="prevButton" class="fas fa-arrow-alt-circle-left fa-3x nextAndPrevButtons"></i>
       <i id="nextButton" class="fas fa-arrow-alt-circle-right fa-3x nextAndPrevButtons"></i>
     </div>  
+    <%}%>
   </body>
 
   <script src="/Js/scripts.js"></script>

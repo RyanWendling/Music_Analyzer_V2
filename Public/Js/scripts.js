@@ -8,6 +8,7 @@ navBarToggle.addEventListener("click", function() {
 let prevBtn = document.getElementById("prevButton");
 let nextBtn = document.getElementById("nextButton");
 
+// Logic to asertain current page number and either increment, or decrement it
 prevBtn.addEventListener("click", function() {
   const urlParams = new URLSearchParams(window.location.search);
   let myParam = urlParams.get("page");

@@ -27,12 +27,14 @@
       </ul>
     </nav>
 
-    <h1>An Artist Details View</h1>
-    <% if (passedInArtist != undefined) {%>
-    <h3><%=passedInArtist[0]%></h3>
-    <h3><%=passedInArtist[1]%></h3>
-    <img alt="" src="../SavedImages/<%=passedInArtist[0]%>250.jpg" />
-    <%}%>
+    <div class="horz-centr">
+      <% if (passedInArtist != undefined) {%>
+      <h1><%=passedInArtist[0]%></h1>
+      <h2>Accumulated Similarity Score = <%=passedInArtist[1]%></h3>
+      <p><%=singleArtistInfo%></p>
+      <img alt="" src="../SavedImages/<%=passedInArtist[0]%>500.jpg" />
+      <%}%>
+    </div>
   </body>
 
   <script src="/Js/scripts.js"></script>

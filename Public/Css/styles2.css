@@ -5,6 +5,7 @@
 body {
   font-family: "Baloo Da 2", cursive;
 }
+
 /*mobile view*/
 .navbar {
   font-size: 18px;
@@ -146,9 +147,10 @@ img {
 /**/
 .horz-centr {
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 10vh;
   right: 0;
   left: 0;
+  margin-bottom: 5vh;
 }
 
 .ph-button {
@@ -207,6 +209,12 @@ img {
   text-decoration: none;
   padding: 1rem;
   cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+.nextAndPrevButtons:hover {
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  color: #4e4e4e;
 }
 
 #nextAndPrevFlexBox {

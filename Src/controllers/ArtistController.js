@@ -52,25 +52,38 @@ function ArtistController(artistAnalyzerService, nav) {
 
   // Show additional info about an artist after all artists have been loaded in.
   function GetAdditionalInfo(request, response, passedInArtists = []) {
-    const { id } = request.params;
-    if (id === "/favicon.ico") {
-      r.writeHead(200, { "Content-Type": "Public/SavedImages/myIcon" });
-      r.end();
-      console.log("favicon requested");
-      return;
-    } else if (id !== "ArtistDetailsView" || id === "") {
-      request.session.resultingArtist = passedInArtists.find((curArtistArr) => curArtistArr[0] === id);
-      if (request.session.resultingArtist === undefined) {
-        request.session.resultingArtist = {};
-      }
-    }
+    (async () => {
+      const { id } = request.params;
+      let singleArtistInfo = "No band summary available.";
+      /*if (Object.keys(passedInArtists).length === 0) {
+        passedInArtists = [];
+      }*/
+      let numberOfArtistsPassedIn = Object.keys(passedInArtists).length;
 
-    response.render("ArtistDetailsView", {
-      nav,
-      maTitle: "Artist Details",
-      passedInArtist: request.session.resultingArtist,
-    });
+      if (id === "/favicon.ico") {
+        r.writeHead(200, { "Content-Type": "Public/SavedImages/myIcon" });
+        r.end();
+        console.log("favicon requested");
+        return;
+      } else if (id !== "ArtistDetailsView" && id !== "" && numberOfArtistsPassedIn !== 0) {
+        request.session.resultingArtist = passedInArtists.find((curArtistArr) => curArtistArr[0] === id);
+        if (request.session.resultingArtist === undefined) {
+          request.session.resultingArtist = {};
+        } else {
+          singleArtistInfo = await artistAnalyzerService.AnalyzeInfoForSingleArtist(request.session.resultingArtist[0]);
+          let singleArtistBigImageBoolean = await artistAnalyzerService.DownloadAndCheckArtistArtwork(request.session.resultingArtist[0], 500);
+        }
+      }
+
+      response.render("ArtistDetailsView", {
+        nav,
+        maTitle: "Artist Details",
+        passedInArtist: request.session.resultingArtist,
+        singleArtistInfo,
+      });
+    })();
   }
+
   return {
     GetAllArtists,
     PostFormAndGenerateAllArtists,
