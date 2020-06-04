@@ -4,7 +4,7 @@ function ArtistController(artistAnalyzerService, nav) {
     (async () => {
       response.render("FileUploadView", {
         nav,
-        maTitle: "Upload here yo",
+        maTitle: "MusicMatch",
       });
     })();
   }
@@ -52,25 +52,38 @@ function ArtistController(artistAnalyzerService, nav) {
 
   // Show additional info about an artist after all artists have been loaded in.
   function GetAdditionalInfo(request, response, passedInArtists = []) {
-    const { id } = request.params;
-    if (id === "/favicon.ico") {
-      r.writeHead(200, { "Content-Type": "Public/SavedImages/myIcon" });
-      r.end();
-      console.log("favicon requested");
-      return;
-    } else if (id !== "ArtistDetailsView" || id === "") {
-      request.session.resultingArtist = passedInArtists.find((curArtistArr) => curArtistArr[0] === id);
-      if (request.session.resultingArtist === undefined) {
-        request.session.resultingArtist = {};
-      }
-    }
+    (async () => {
+      const { id } = request.params;
+      let numberOfArtistsPassedIn = Object.keys(passedInArtists).length;
 
-    response.render("ArtistDetailsView", {
-      nav,
-      maTitle: "Artist Details",
-      passedInArtist: request.session.resultingArtist,
-    });
+      // Edge case where browser tries to find the favicon icon.
+      if (id === "/favicon.ico") {
+        r.writeHead(200, { "Content-Type": "Public/SavedImages/myIcon" });
+        r.end();
+        console.log("favicon requested");
+        return;
+
+        // Download large album artwork and fetch artist summary, assuming conditions are met.
+      } else if (id !== "ArtistDetailsView" && id !== "" && numberOfArtistsPassedIn !== 0) {
+        request.session.singleArtistInfo = "No band summary available.";
+        request.session.resultingArtist = passedInArtists.find((curArtistArr) => curArtistArr[0] === id);
+        if (request.session.resultingArtist === undefined) {
+          request.session.resultingArtist = {};
+        } else {
+          request.session.singleArtistInfo = await artistAnalyzerService.AnalyzeInfoForSingleArtist(request.session.resultingArtist[0]);
+          let singleArtistBigImageBoolean = await artistAnalyzerService.DownloadAndCheckArtistArtwork(request.session.resultingArtist[0], 500);
+        }
+      }
+
+      response.render("ArtistDetailsView", {
+        nav,
+        maTitle: "Artist Details",
+        passedInArtist: request.session.resultingArtist,
+        singleArtistInfo: request.session.singleArtistInfo,
+      });
+    })();
   }
+
   return {
     GetAllArtists,
     PostFormAndGenerateAllArtists,

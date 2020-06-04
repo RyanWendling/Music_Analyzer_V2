@@ -31,19 +31,33 @@ async function downloadFile(url, path) {
   });
 }
 
+async function AnalyzeInfoForSingleArtist(anArtistName) {
+  const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${anArtistName}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`);
+  const anAPIResponseJSON = await anAPIResponse.json();
+  if (anAPIResponseJSON.hasOwnProperty("error")) {
+    console.log("artist wasnt found in LastFM API");
+    return "";
+  }
+  console.log("done fetching initial lastfm data for 1 artist");
+  return anAPIResponseJSON.artist.bio.summary;
+}
+
 // Will check if similar artist artwork already exists in local storage. Will download artwork if artwork doesn't exist via Deezer API.
-async function DownloadAndCheckArtistArtwork(anArtistName) {
-  console.log("inside DownloadAndCheckArtistArtwork");
+async function DownloadAndCheckArtistArtwork(anArtistName, sizeInt) {
+  let sizeName = "medium";
+  if (sizeInt === 500) {
+    sizeName = "big";
+  }
   const formattedArtistName = anArtistName.replace(/[' .]/g, "-");
   const formattedArtistNameNoDups = myLinkedListClass.RemoveDuplicate(formattedArtistName, "-");
-  if (fileServer.existsSync(`./Public/SavedImages/${anArtistName}250.jpg`)) {
+  if (fileServer.existsSync(`./Public/SavedImages/${anArtistName}${sizeInt}.jpg`)) {
     return true;
   }
   try {
     const anAPIResponse = await fetch(`https://api.deezer.com/artist/${encodeURI(formattedArtistNameNoDups)}`);
     const anAPIResponseJSON = await anAPIResponse.json();
     //const downloadFileResponse = await downloadFile(anAPIResponseJSON.picture_medium, `./SavedImages/${formattedArtistNameNoDups}250.jpg`);
-    const downloadFileResponse = await downloadFile(anAPIResponseJSON.picture_medium, `./Public/SavedImages/${anArtistName}250.jpg`);
+    const downloadFileResponse = await downloadFile(anAPIResponseJSON[`picture_${sizeName}`], `./Public/SavedImages/${anArtistName}${sizeInt}.jpg`);
   } catch (e) {
     console.log(`exception:${e}.  INFO:Error downloading image`);
     return false;
@@ -60,7 +74,6 @@ async function CalculateAPIResults(apiResponse, importedArtists, resultsMap = ne
     if (!importedArtists.has(curArtist.name.toLowerCase())) {
       if (!resultsMap.has(curArtist.name)) {
         //const artworkExists = await DownloadAndCheckArtistArtwork(curArtist.name);
-        // const artworkExists = await DownloadAndCheckArtistArtwork("foals");
         resultsMap.set(curArtist.name, parseFloat(curArtist.match) * multiplier);
       } else {
         resultsMap.set(curArtist.name, resultsMap.get(curArtist.name) + parseFloat(curArtist.match) * multiplier);
@@ -76,7 +89,7 @@ async function DownloadAndCheckMultipleArtistArtwork(SimilarArtistsArray) {
   console.log("in DownloadAndCheckMultipleArtistArtwork");
   let failedAlbumCoverDownloads = 0;
   const promises = SimilarArtistsArray.map(async (curArtist) => {
-    const artworkExists = await DownloadAndCheckArtistArtwork(curArtist[0]);
+    const artworkExists = await DownloadAndCheckArtistArtwork(curArtist[0], 250);
     if (!artworkExists) {
       failedAlbumCoverDownloads++;
     }
@@ -144,3 +157,5 @@ async function AnalyzeMusic(XMLPlaylistFile) {
 
 exports.AnalyzeMusic = AnalyzeMusic;
 exports.DownloadAndCheckMultipleArtistArtwork = DownloadAndCheckMultipleArtistArtwork;
+exports.DownloadAndCheckArtistArtwork = DownloadAndCheckArtistArtwork;
+exports.AnalyzeInfoForSingleArtist = AnalyzeInfoForSingleArtist;
