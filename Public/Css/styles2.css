@@ -221,3 +221,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+.spacer {
+  margin: 1rem;
+}

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2020-06-04T04:49:10Z</date>
+	<key>Application Version</key><string>12.10.7.3</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/</string>
+	<key>Library Persistent ID</key><string>715541E54B1CD42C</string>
+	<key>Tracks</key>
+	<dict>
+		<key>6830</key>
+		<dict>
+			<key>Track ID</key><integer>6830</integer>
+			<key>Name</key><string>Fire</string>
+			<key>Artist</key><string>Kasabian</string>
+			<key>Album Artist</key><string>Kasabian</string>
+			<key>Composer</key><string>Sergio Pizzorno</string>
+			<key>Album</key><string>West Ryder Pauper Lunatic Asylum</string>
+			<key>Genre</key><string>Alternative Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5700647</integer>
+			<key>Total Time</key><integer>253283</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:38Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:20Z</date>
+			<key>Bit Rate</key><integer>177</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>55</integer>
+			<key>Play Date</key><integer>3628682317</integer>
+			<key>Play Date UTC</key><date>2018-12-26T23:18:37Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-04-13T21:13:40Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>4757</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>West Ryder Pauper Lunatic Asylum</string>
+			<key>Persistent ID</key><string>BF321DECFAC2ECFC</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Kasabian/West%20Ryder%20Pauper%20Lunatic%20Asylum/11%20Fire.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>6860</key>
+		<dict>
+			<key>Track ID</key><integer>6860</integer>
+			<key>Name</key><string>Is It Any Wonder?</string>
+			<key>Artist</key><string>Keane</string>
+			<key>Album Artist</key><string>Keane</string>
+			<key>Composer</key><string>Chaplin/Hughes/Rice-Oxley</string>
+			<key>Album</key><string>Under The Iron Sea</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4528977</integer>
+			<key>Total Time</key><integer>186226</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Year</key><integer>2006</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:38Z</date>
+			<key>Date Added</key><date>2015-09-08T03:30:20Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string> 00000000 00000210 0000072C 00000000007D4744 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000</string>
+			<key>Play Count</key><integer>34</integer>
+			<key>Play Date</key><integer>3589963263</integer>
+			<key>Play Date UTC</key><date>2017-10-04T19:01:03Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2019-02-14T06:27:23Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Normalization</key><integer>9676</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A3B4D0A3E4F4BD7B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Keane/Under%20The%20Iron%20Sea/02%20Is%20It%20Any%20Wonder_.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>11450</key>
+		<dict>
+			<key>Track ID</key><integer>11450</integer>
+			<key>Name</key><string>III Ray (The King)</string>
+			<key>Artist</key><string>Kasabian</string>
+			<key>Album Artist</key><string>Kasabian</string>
+			<key>Album</key><string>For Crying Out Loud</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8833664</integer>
+			<key>Total Time</key><integer>219872</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2018-04-15T23:00:38Z</date>
+			<key>Date Added</key><date>2017-05-04T04:15:01Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>Freak37</string>
+			<key>Play Count</key><integer>28</integer>
+			<key>Play Date</key><integer>3628683817</integer>
+			<key>Play Date UTC</key><date>2018-12-26T23:43:37Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2018-08-03T22:03:08Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Normalization</key><integer>7761</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>18A10BED314C69A6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Kasabian/For%20Crying%20Out%20Loud/01%20III%20Ray%20(The%20King).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>13820</key>
+		<dict>
+			<key>Track ID</key><integer>13820</integer>
+			<key>Name</key><string>Dream Boy</string>
+			<key>Artist</key><string>Beach Bunny</string>
+			<key>Album Artist</key><string>Beach Bunny</string>
+			<key>Album</key><string>Honeymoon</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5742980</integer>
+			<key>Total Time</key><integer>141453</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Year</key><integer>2020</integer>
+			<key>Date Modified</key><date>2020-05-07T23:52:40Z</date>
+			<key>Date Added</key><date>2020-02-19T00:13:10Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3664979418</integer>
+			<key>Play Date UTC</key><date>2020-02-20T01:50:18Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>7801</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FE8ADBDCF5422A43</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/Beach%20Bunny/Honeymoon/1-08%20Dream%20Boy.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>13864</key>
+		<dict>
+			<key>Track ID</key><integer>13864</integer>
+			<key>Name</key><string>The Adults Are Talking</string>
+			<key>Artist</key><string>The Strokes</string>
+			<key>Album Artist</key><string>The Strokes</string>
+			<key>Album</key><string>The New Abnormal</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>12591405</integer>
+			<key>Total Time</key><integer>309106</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2020</integer>
+			<key>Date Modified</key><date>2020-05-07T23:53:07Z</date>
+			<key>Date Added</key><date>2020-04-29T05:25:43Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3671103390</integer>
+			<key>Play Date UTC</key><date>2020-04-30T21:56:30Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2020-05-01T01:06:24Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>5456</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>New Abnormal</string>
+			<key>Sort Album Artist</key><string>Strokes</string>
+			<key>Sort Artist</key><string>Strokes</string>
+			<key>Sort Name</key><string>Adults Are Talking</string>
+			<key>Persistent ID</key><string>0F50E862C28CEF1D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/C:/Users/Steve/Music/iTunes/iTunes%20Media2/Music/The%20Strokes/The%20New%20Abnormal/1-01%20The%20Adults%20Are%20Talking.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>testPlaylist</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>34637</integer>
+			<key>Playlist Persistent ID</key><string>E6D46057A4A6D6E1</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>6830</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>6860</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>11450</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>13864</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>13820</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

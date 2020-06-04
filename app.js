@@ -20,9 +20,12 @@ app.use(function(req, res, next) {
   if (!req.session.resultingArtist) {
     req.session.resultingArtist = {};
   }
-  // see if user has already a certain results page
+  // see if user has already visited a certain results page
   if (!req.session.resultsPageVisited) {
     req.session.resultsPageVisited = {};
+  }
+  if (!req.session.singleArtistInfo) {
+    req.session.singleArtistInfo = {};
   }
   next();
 });

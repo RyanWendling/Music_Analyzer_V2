@@ -4,7 +4,7 @@ function ArtistController(artistAnalyzerService, nav) {
     (async () => {
       response.render("FileUploadView", {
         nav,
-        maTitle: "Upload here yo",
+        maTitle: "MusicMatch",
       });
     })();
   }
@@ -54,23 +54,23 @@ function ArtistController(artistAnalyzerService, nav) {
   function GetAdditionalInfo(request, response, passedInArtists = []) {
     (async () => {
       const { id } = request.params;
-      let singleArtistInfo = "No band summary available.";
-      /*if (Object.keys(passedInArtists).length === 0) {
-        passedInArtists = [];
-      }*/
       let numberOfArtistsPassedIn = Object.keys(passedInArtists).length;
 
+      // Edge case where browser tries to find the favicon icon.
       if (id === "/favicon.ico") {
         r.writeHead(200, { "Content-Type": "Public/SavedImages/myIcon" });
         r.end();
         console.log("favicon requested");
         return;
+
+        // Download large album artwork and fetch artist summary, assuming conditions are met.
       } else if (id !== "ArtistDetailsView" && id !== "" && numberOfArtistsPassedIn !== 0) {
+        request.session.singleArtistInfo = "No band summary available.";
         request.session.resultingArtist = passedInArtists.find((curArtistArr) => curArtistArr[0] === id);
         if (request.session.resultingArtist === undefined) {
           request.session.resultingArtist = {};
         } else {
-          singleArtistInfo = await artistAnalyzerService.AnalyzeInfoForSingleArtist(request.session.resultingArtist[0]);
+          request.session.singleArtistInfo = await artistAnalyzerService.AnalyzeInfoForSingleArtist(request.session.resultingArtist[0]);
           let singleArtistBigImageBoolean = await artistAnalyzerService.DownloadAndCheckArtistArtwork(request.session.resultingArtist[0], 500);
         }
       }
@@ -79,7 +79,7 @@ function ArtistController(artistAnalyzerService, nav) {
         nav,
         maTitle: "Artist Details",
         passedInArtist: request.session.resultingArtist,
-        singleArtistInfo,
+        singleArtistInfo: request.session.singleArtistInfo,
       });
     })();
   }
