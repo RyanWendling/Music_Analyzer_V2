@@ -28,7 +28,7 @@
     </nav>
 
     <div class="horz-centr">
-      <% if (passedInArtist != undefined) {%>
+      <% if (passedInArtist != undefined && Object.keys(passedInArtist).length !== 0 && Object.keys(singleArtistInfo).length !== 0) {%>
       <h1 style=font-size:4rem><%=passedInArtist[0]%></h1>
       <div style="background-color: #eeeeee; padding: 1.5rem; margin-left: 6%; margin-right: 6%;">
         <h2>Accumulated Similarity Score = <%=passedInArtist[1]%></h3>
