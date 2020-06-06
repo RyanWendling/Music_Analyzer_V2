@@ -58,6 +58,11 @@ function router(nav) {
     GetAdditionalInfo(request, response, request.session.resultingArtists);
   });
 
+  artistRouter.route("/FileUpLoadView").get((request, response, next) => {
+    const file = `../../Public/SavedPlaylists/examplePlaylist2.xml`;
+    res.download(file);
+  });
+
   return artistRouter;
 }
 
