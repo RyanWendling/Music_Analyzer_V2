@@ -1,6 +1,5 @@
 // IMPORTS
 const fetch = require("node-fetch");
-// const httpObj = require("http");
 const fileServer = require("fs");
 const convert = require("xml-js");
 const myLinkedListClass = require("./LinkedList.js");
@@ -56,7 +55,6 @@ async function DownloadAndCheckArtistArtwork(anArtistName, sizeInt) {
   try {
     const anAPIResponse = await fetch(`https://api.deezer.com/artist/${encodeURI(formattedArtistNameNoDups)}`);
     const anAPIResponseJSON = await anAPIResponse.json();
-    //const downloadFileResponse = await downloadFile(anAPIResponseJSON.picture_medium, `./SavedImages/${formattedArtistNameNoDups}250.jpg`);
     const downloadFileResponse = await downloadFile(anAPIResponseJSON[`picture_${sizeName}`], `./Public/SavedImages/${anArtistName}${sizeInt}.jpg`);
   } catch (e) {
     console.log(`exception:${e}.  INFO:Error downloading image`);
@@ -73,7 +71,6 @@ async function CalculateAPIResults(apiResponse, importedArtists, resultsMap = ne
   const promises = apiResponse.similarartists.artist.map(async (curArtist) => {
     if (!importedArtists.has(curArtist.name.toLowerCase())) {
       if (!resultsMap.has(curArtist.name)) {
-        //const artworkExists = await DownloadAndCheckArtistArtwork(curArtist.name);
         resultsMap.set(curArtist.name, parseFloat(curArtist.match) * multiplier);
       } else {
         resultsMap.set(curArtist.name, resultsMap.get(curArtist.name) + parseFloat(curArtist.match) * multiplier);
@@ -99,10 +96,9 @@ async function DownloadAndCheckMultipleArtistArtwork(SimilarArtistsArray) {
   return;
 }
 
-// READ IN DEMO LIBRARY
+// Read in Demo Library
 function readInLibrary(XMLPlaylistFile) {
   return new Promise((resolve) => {
-    //fileServer.readFile("./Public/SavedPlaylists/testPlaylist.xml", "utf-8", (err, data) => {
     fileServer.readFile(XMLPlaylistFile.path, "utf-8", (err, data) => {
       const jsonSongs = convert.xml2json(data, { compact: false, spaces: 4 });
       const jsonSongsObj = JSON.parse(jsonSongs);
@@ -131,15 +127,14 @@ function readInLibrary(XMLPlaylistFile) {
   });
 }
 
-// MAIN FUNCTION FOR THIS MODULE -------------------------------------------------------------------------------------------------------------------------
 // Read in a specified xml itunes library file and output similar artists.
 async function AnalyzeMusic(XMLPlaylistFile) {
+  console.log("starting AnalyzeMusic() function");
   const artistsMap = await readInLibrary(XMLPlaylistFile);
   const resultsFromCalculateAPIResults = new Map();
 
   for (let [key, value] of artistsMap) {
     console.log(key + " = " + value);
-    //const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json&limit=5`);
     const anAPIResponse = await fetch(`http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${encodeURI(key)}&autocorrect=1&api_key=f28c377cc9c4485831f3bcf5b9e1670a&format=json`);
     const anAPIResponseJSON = await anAPIResponse.json();
     if (anAPIResponseJSON.hasOwnProperty("error")) {
@@ -149,9 +144,7 @@ async function AnalyzeMusic(XMLPlaylistFile) {
     console.log("done fetching initial lastfm data for 1 artist");
     const promise = await CalculateAPIResults(anAPIResponseJSON, artistsMap, resultsFromCalculateAPIResults, value);
   }
-  // const sortedResults = new Map([...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]));
   const sortedResults = [...resultsFromCalculateAPIResults.entries()].sort((a, b) => b[1] - a[1]);
-  console.log(sortedResults.slice(0, 50));
   return sortedResults;
 }
 
