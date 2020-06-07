@@ -4,6 +4,10 @@ const app = express();
 const port = process.env.port || 3000;
 const session = require("express-session");
 var favicon = require("serve-favicon");
+var compression = require("compression");
+var helmet = require("helmet");
+
+app.use(helmet());
 
 app.use(
   session({
@@ -29,6 +33,9 @@ app.use(function(req, res, next) {
   }
   next();
 });
+
+// Compress all routes
+app.use(compression());
 
 // The below path is available to all client requesters. Note that node serves these static files, the client can't directly acces them. You may also add links to external CDNs like bootstrap here.
 app.use(express.static(path.join(__dirname, "/Public")));
