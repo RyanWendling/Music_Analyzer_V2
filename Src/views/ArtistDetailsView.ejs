@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title><%=maTitle%></title>
+    <meta name="description" content="MusicMatch: recommended artists based off your personal library." />
+    <meta name="author" content="Ryan Wendling" />
+    <link rel="stylesheet" type="text/css" href="/Css/reset.css" />
+    <link rel="stylesheet" href="/Css/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="" class="logo">MusicMatch</a>
+      <ul class="main-nav" id="js-menu">
+        <% for(let i = 0; i < nav.length; i++) {%>
+        <li>
+          <a class="nav-links" href="<%=nav[i].link%>"> <%=nav[i].title%> </a>
+        </li>
+        <%}%>
+      </ul>
+    </nav>
+
+    <div class="horz-centr">
+      <% if (passedInArtist != undefined && Object.keys(passedInArtist).length !== 0 && Object.keys(singleArtistInfo).length !== 0) {%>
+      <h1 style=font-size:4rem><%=passedInArtist[0]%></h1>
+      <div style="background-color: #eeeeee; padding: 1.5rem; margin-left: 6%; margin-right: 6%;">
+        <h2>Accumulated Similarity Score = <%=passedInArtist[1]%></h3>
+        <p><%=singleArtistInfo%></p>
+      </div>
+      <img class="spacer" srcset="../SavedImages/<%=passedInArtist[0]%>250.jpg 250w,
+      ../SavedImages/<%=passedInArtist[0]%>500.jpg 500w"
+        sizes="(max-width: 530px) 250px,
+            500px"
+      src="../SavedImages/<%=passedInArtist[0]%>500.jpg"
+      alt="Image of specified band">
+      <%}%>
+    </div>
+  </body>
+
+  <script src="/Js/scripts.js"></script>
+</html>

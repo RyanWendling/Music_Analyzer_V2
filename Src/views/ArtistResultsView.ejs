@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title><%=maTitle%></title>
+    <meta name="description" content="MusicMatch: recommended artists based off your personal library." />
+    <meta name="author" content="Ryan Wendling" />
+    <link rel="stylesheet" type="text/css" href="/Css/reset.css" />
+    <link rel="stylesheet" href="/Css/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+      </span>
+      <a href="" class="logo">MusicMatch</a>
+      <ul class="main-nav" id="js-menu">
+        <% for(let i = 0; i < nav.length; i++) {%>
+          <li>
+            <a class="nav-links" href="<%=nav[i].link%>"> <%=nav[i].title%> </a>
+          </li>
+        <%}%>
+      </ul>
+    </nav>
+
+    <br></br>
+    <div class="grid-container">
+      <% for(let i = 0; i < passedInArtists.length; i++) {%>
+      <div class="grid-item">
+        <a class="music-info" href="/<%=passedInArtists[i][0]%>">
+          <h3><%=passedInArtists[i][0]%></h3>
+          <img alt="" src="../SavedImages/<%=passedInArtists[i][0]%>250.jpg" class="grid-img" />
+        </a>
+      </div>
+      <%}%>
+    </div>
+
+    <% if (Object.keys(passedInArtists).length > 0) {%>
+    <div id="nextAndPrevFlexBox">
+      <i id="prevButton" class="fas fa-arrow-alt-circle-left fa-3x nextAndPrevButtons"></i>
+      <i id="nextButton" class="fas fa-arrow-alt-circle-right fa-3x nextAndPrevButtons"></i>
+    </div>  
+    <%}%>
+  </body>
+
+  <script src="/Js/scripts.js"></script>
+</html>

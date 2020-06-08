@@ -30,6 +30,28 @@
       "request": "launch",
       "reAttach": true,
       "addonPath": "${workspaceFolder}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch backend code / Program",
+      "program": "${workspaceFolder}/app.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch backend analyzer Program",
+      "program": "${workspaceFolder}/SimilarArtistAnalyzer.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "nodemon",
+      "runtimeExecutable": "nodemon",
+      "program": "${workspaceFolder}/app.js",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
     }
   ]
 }
