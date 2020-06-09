@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 const session = require("express-session");
 var favicon = require("serve-favicon");
 var compression = require("compression");
@@ -17,7 +17,7 @@ app.use(
   })
 );
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   if (!req.session.resultingArtists) {
     req.session.resultingArtists = {};
   }
@@ -46,7 +46,11 @@ app.use(favicon(path.join(__dirname, "Public/SavedImages", "favicon.ico")));
 app.set("views", "./Src/views");
 app.set("view engine", "ejs");
 
-const nav = [{ link: "/", title: "Upload new+" }, { link: "/ArtistResultsView", title: "Artist Results" }, { link: "/ArtistDetailsView", title: "Artist Details" }];
+const nav = [
+  { link: "/", title: "Upload new+" },
+  { link: "/ArtistResultsView", title: "Artist Results" },
+  { link: "/ArtistDetailsView", title: "Artist Details" },
+];
 const myArtistRouter = require("./Src/routes/artistRoutes")(nav);
 
 //myArtistRouter will be used for the "/" path, as well as all child paths.
