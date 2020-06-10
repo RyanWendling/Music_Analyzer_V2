@@ -3,6 +3,7 @@ const path = require("path");
 const app = express();
 const port = process.env.PORT || 3000;
 const session = require("express-session");
+var MemoryStore = require("memorystore")(session);
 var favicon = require("serve-favicon");
 var compression = require("compression");
 var helmet = require("helmet");
@@ -11,6 +12,10 @@ app.use(helmet());
 
 app.use(
   session({
+    cookie: { maxAge: 86400000 },
+    store: new MemoryStore({
+      checkPeriod: 86400000, // prune expired entries every 24h
+    }),
     secret: "ryans super secret thingy",
     resave: false,
     saveUninitialized: true,
