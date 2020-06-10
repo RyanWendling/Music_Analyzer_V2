@@ -3,8 +3,8 @@ const artistRouter = express.Router();
 const path = require("path");
 const myMulter = require("multer");
 var upload = myMulter({
-  dest: "/uploads",
-  fileFilter: function(req, file, cb) {
+  dest: "/SavedPlaylists",
+  fileFilter: function (req, file, cb) {
     checkFileType(file, cb);
   },
 }).single("playlist_xml");
@@ -29,7 +29,11 @@ const artistAnalyzerService = require("../services/SimilarArtistAnalyzer");
 
 function router(nav) {
   const { GetUploadForm, PostFormAndGenerateAllArtists, GetAllArtists, GetAdditionalInfo } = artistController(artistAnalyzerService, nav);
-  let passedInArtists = [["Kasabian", 0.55], ["Beck", 0.45], ["Black Keys", 0.72]];
+  let passedInArtists = [
+    ["Kasabian", 0.55],
+    ["Beck", 0.45],
+    ["Black Keys", 0.72],
+  ];
 
   // Get File upload form
   artistRouter.route("/").get((request, response, next) => {
