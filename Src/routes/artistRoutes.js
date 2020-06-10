@@ -3,7 +3,7 @@ const artistRouter = express.Router();
 const path = require("path");
 const myMulter = require("multer");
 var upload = myMulter({
-  dest: "/SavedPlaylists",
+  dest: "app/Public/SavedPlaylists",
   fileFilter: function (req, file, cb) {
     checkFileType(file, cb);
   },
