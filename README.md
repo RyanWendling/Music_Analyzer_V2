@@ -1,6 +1,4 @@
 # Music_Analyzer_V2
-second take at creating a music match application
-
 Hello,
 
 This application helps a user discover new music by taking your itunes playlist xml files and performing calculations on them with the help of the lastfm API to return similar artists. 
