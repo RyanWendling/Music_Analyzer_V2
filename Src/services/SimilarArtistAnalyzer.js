@@ -24,7 +24,7 @@ async function downloadFile(url, path) {
     res.body.on("error", (err) => {
       reject(err);
     });
-    fileStream.on("finish", function() {
+    fileStream.on("finish", function () {
       resolve();
     });
   });
