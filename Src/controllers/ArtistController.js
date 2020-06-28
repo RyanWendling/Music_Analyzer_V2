@@ -1,3 +1,7 @@
+const fs = require("fs");
+const { promisify } = require("util");
+const unlinkAsync = promisify(fs.unlink);
+
 function ArtistController(artistAnalyzerService, nav) {
   // Get upload playlist form
   function GetUploadForm(request, response) {
@@ -13,6 +17,7 @@ function ArtistController(artistAnalyzerService, nav) {
   function PostFormAndGenerateAllArtists(request, response) {
     (async () => {
       let passedInArtists = await artistAnalyzerService.AnalyzeMusic(request.file);
+      await unlinkAsync(request.file.path);
       request.session.resultsPageVisited = {};
       request.session.resultingArtists = passedInArtists;
       response.redirect("/ArtistResultsView");
