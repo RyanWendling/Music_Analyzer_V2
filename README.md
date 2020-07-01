@@ -6,7 +6,7 @@ This application helps a user discover new music by taking your itunes playlist 
 
 Instructions:
 
-1. Go to https://newmusicmatch.herokuapp.com/ or AWS WEBSITE TO BE NAMED to load the MusicMatch application.
+1. Go to https://newmusicmatch.herokuapp.com/ or http://musicmatch.us-west-2.elasticbeanstalk.com/ to load the MusicMatch application.
 
 2. Follow website instructions or continue following below:
 
